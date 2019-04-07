@@ -1,0 +1,12 @@
+Mon, 01 Apr 2019 06:42:47 +0000 [UpgradeWizard] - setting session variables...
+Mon, 01 Apr 2019 06:42:47 +0000 [UpgradeWizard] - -----------------------------------------------------------------------------
+Mon, 01 Apr 2019 06:42:47 +0000 [UpgradeWizard] - Upgrade started. At start.php
+Mon, 01 Apr 2019 06:42:47 +0000 [UpgradeWizard] - at unlinkUWTempFiles()
+Mon, 01 Apr 2019 06:42:47 +0000 [UpgradeWizard] - finished!
+Mon, 01 Apr 2019 06:42:47 +0000 [UpgradeWizard] - resetting $_SESSION
+Mon, 01 Apr 2019 06:43:44 +0000 [UpgradeWizard] - setting session variables...
+Mon, 01 Apr 2019 06:43:44 +0000 [UpgradeWizard] - -----------------------------------------------------------------------------
+Mon, 01 Apr 2019 06:43:44 +0000 [UpgradeWizard] - Upgrade started. At start.php
+Mon, 01 Apr 2019 06:43:44 +0000 [UpgradeWizard] - at unlinkUWTempFiles()
+Mon, 01 Apr 2019 06:43:44 +0000 [UpgradeWizard] - finished!
+Mon, 01 Apr 2019 06:43:44 +0000 [UpgradeWizard] - resetting $_SESSION

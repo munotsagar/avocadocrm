@@ -1,0 +1,25 @@
+<?php
+// created: 2018-12-28 13:13:05
+$mod_strings = array (
+  'LBL_CUSTOMERS_PURCHASED_PRODUCTS_SUBPANEL_TITLE' => 'Purchases',
+  'LBL_PART_NUMBER' => 'Product ID',
+  'LBL_TYPE' => 'Warehouse Stock Status',
+  'LBL_TRUCK' => 'Truck',
+  'LBL_STOCKIN' => 'Total Stock In',
+  'LBL_STOCKOUT' => 'Stock Out',
+  'LBL_BALANCE' => 'Warehouse Balance Stock',
+  'LBL_PRODUCT_MODEL_CODE' => 'Product Model Code',
+  'LBL_STAGGING_INVENTORY' => 'Today&#039;s New Orders',
+  'LBL_OPENCARTBALANCESTOCK' => 'Balance Stock after New Orders',
+  'LBL_AOS_PRODUCTS_FYN_STOCK_OUT_1_FROM_FYN_STOCK_OUT_TITLE' => 'Stock Out',
+  'LBL_AOS_PRODUCTS_FYN_STOCK_IN_1_FROM_FYN_STOCK_IN_TITLE' => 'Stock In',
+  'LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_BOXES_TITLE' => 'QR Code Boxes',
+  'LBL_MAINCODE' => 'OpenCart Stock Status',
+  'LBL_AOS_PRODUCTS_VS_VEHICLE_STOCKIN_1_FROM_VS_VEHICLE_STOCKIN_TITLE' => 'Vehicle StockIN',
+  'LBL_AOS_PRODUCTS_VS_VEHICLESTOCKOUT_1_FROM_VS_VEHICLESTOCKOUT_TITLE' => 'Vehicle StockOUT',
+  'LBL_ORDER_UPDATE_DAILY' => 'Order Update Daily',
+  'LBL_FOR_DAILYUPDATEORDER' => 'For Daily update order',
+  'LBL_CATEGORY' => 'Product Category',
+  'LBL_DETAILVIEW_PANEL1' => 'New Panel 1',
+  'LBL_STOCK_IN_FROM_FARM' => 'Stock In From Farm',
+);

@@ -1,0 +1,469 @@
+
+2018-11-19 05:25:02...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2018-11-19 05:25:13...Begin System Check Process *************
+2018-11-19 05:25:13...XML Parsing Support Found
+2018-11-19 05:25:13...MBString Support Found
+2018-11-19 05:25:13...ZIP Support Found
+2018-11-19 05:25:13.../custom directory and subdirectory check passed
+2018-11-19 05:25:13...cache directory and subdirectory check passed
+2018-11-19 05:25:13.../module  directory and subdirectory check passed
+2018-11-19 05:25:13.../upload directory check passed
+2018-11-19 05:25:13.../zip check passed
+2018-11-19 05:25:13...PCRE version check passed
+2018-11-19 05:25:13...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2018-11-19 05:25:13...php.ini location found. /etc/php/7.0/apache2/php.ini
+2018-11-19 05:25:13...Outputting HTML for System check
+2018-11-19 05:25:13...No Errors were found *************
+2018-11-19 05:25:14...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2018-11-19 05:25:17...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2018-11-19 05:27:24...Begin DB Check Process *************
+2018-11-19 05:27:24...testing with mysql:mysqli
+2018-11-19 05:27:24...Basic form info is valid, continuing Process.
+2018-11-19 05:27:24...Testing user account...
+2018-11-19 05:28:24...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:28:24...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:28:24..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:28:24...End DB Check Process *************
+2018-11-19 05:28:54...Begin DB Check Process *************
+2018-11-19 05:28:54...testing with mysql:mysqli
+2018-11-19 05:28:54...Basic form info is valid, continuing Process.
+2018-11-19 05:28:54...Testing user account...
+2018-11-19 05:29:54...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:29:54...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:29:54..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:29:54...End DB Check Process *************
+2018-11-19 05:30:07...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2018-11-19 05:31:25...Begin DB Check Process *************
+2018-11-19 05:31:25...testing with mysql:mysqli
+2018-11-19 05:31:25...Basic form info is valid, continuing Process.
+2018-11-19 05:31:25...Testing user account...
+2018-11-19 05:32:25...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:32:25...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:32:25..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:32:25...End DB Check Process *************
+2018-11-19 05:32:48...Begin DB Check Process *************
+2018-11-19 05:32:48...testing with mysql:mysqli
+2018-11-19 05:32:48...Basic form info is valid, continuing Process.
+2018-11-19 05:32:48...Testing user account...
+2018-11-19 05:32:48...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:32:48...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:32:48..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:32:48...End DB Check Process *************
+2018-11-19 05:33:08...Begin DB Check Process *************
+2018-11-19 05:33:08...testing with mysql:mysqli
+2018-11-19 05:33:08...Basic form info is valid, continuing Process.
+2018-11-19 05:33:08...Testing user account...
+2018-11-19 05:33:08...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:33:08...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:33:08..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:33:08...End DB Check Process *************
+2018-11-19 05:33:51...Begin DB Check Process *************
+2018-11-19 05:33:51...testing with mysql:mysqli
+2018-11-19 05:33:51...Basic form info is valid, continuing Process.
+2018-11-19 05:33:51...Testing user account...
+2018-11-19 05:33:51...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:33:51...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:33:51..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:33:51...End DB Check Process *************
+2018-11-19 05:34:40...Begin DB Check Process *************
+2018-11-19 05:34:40...testing with mysql:mysqli
+2018-11-19 05:34:40...Basic form info is valid, continuing Process.
+2018-11-19 05:34:40...Testing user account...
+2018-11-19 05:34:40...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:34:40...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:34:40..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:34:40...End DB Check Process *************
+2018-11-19 05:35:27...Begin DB Check Process *************
+2018-11-19 05:35:27...testing with mysql:mysqli
+2018-11-19 05:35:27...Basic form info is valid, continuing Process.
+2018-11-19 05:35:27...Testing user account...
+2018-11-19 05:35:27...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:35:27...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:35:27..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:35:27...End DB Check Process *************
+2018-11-19 05:35:40...Begin DB Check Process *************
+2018-11-19 05:35:40...testing with mysql:mysqli
+2018-11-19 05:35:40...Basic form info is valid, continuing Process.
+2018-11-19 05:35:40...Testing user account...
+2018-11-19 05:35:40...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:35:40...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:35:40..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:35:40...End DB Check Process *************
+2018-11-19 05:35:55...Begin DB Check Process *************
+2018-11-19 05:35:55...testing with mysql:mysqli
+2018-11-19 05:35:55...Basic form info is valid, continuing Process.
+2018-11-19 05:35:55...Testing user account...
+2018-11-19 05:35:55...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:35:55...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:35:55..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:35:55...End DB Check Process *************
+2018-11-19 05:36:11...Begin DB Check Process *************
+2018-11-19 05:36:11...testing with mysql:mysqli
+2018-11-19 05:36:11...Basic form info is valid, continuing Process.
+2018-11-19 05:36:11...Testing user account...
+2018-11-19 05:36:11...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:36:11...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:36:11..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:36:11...End DB Check Process *************
+2018-11-19 05:36:47...Begin DB Check Process *************
+2018-11-19 05:36:47...testing with mysql:mysqli
+2018-11-19 05:36:47...Basic form info is valid, continuing Process.
+2018-11-19 05:36:47...Testing user account...
+2018-11-19 05:36:47...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:36:47...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:36:47..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:36:47...End DB Check Process *************
+2018-11-19 05:37:09...Begin DB Check Process *************
+2018-11-19 05:37:09...testing with mysql:mysqli
+2018-11-19 05:37:09...Basic form info is valid, continuing Process.
+2018-11-19 05:37:09...Testing user account...
+2018-11-19 05:37:09...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:37:09...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:37:09..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:37:09...End DB Check Process *************
+2018-11-19 05:37:14...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2018-11-19 05:37:23...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2018-11-19 05:37:52...Begin DB Check Process *************
+2018-11-19 05:37:52...testing with mysql:mysqli
+2018-11-19 05:37:52...Basic form info is valid, continuing Process.
+2018-11-19 05:37:52...Testing user account...
+2018-11-19 05:37:52...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:37:52...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:37:52..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:37:52...End DB Check Process *************
+2018-11-19 05:38:48...Begin DB Check Process *************
+2018-11-19 05:38:48...testing with mysql:mysqli
+2018-11-19 05:38:48...Basic form info is valid, continuing Process.
+2018-11-19 05:38:48...Testing user account...
+2018-11-19 05:39:48...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:39:48...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2018-11-19 05:39:48..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established. Please enter a valid host, username and password
+2018-11-19 05:39:48...End DB Check Process *************
+2018-11-19 05:45:41...Begin DB Check Process *************
+2018-11-19 05:45:41...testing with mysql:mysqli
+2018-11-19 05:45:41...Basic form info is valid, continuing Process.
+2018-11-19 05:45:41...Testing user account...
+2018-11-19 05:45:41...Connection made using  host: localhost, usr: root
+2018-11-19 05:45:41...SUCCESS:: no errors detected!
+2018-11-19 05:45:41...End DB Check Process *************
+2018-11-19 05:45:42...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2018-11-19 05:45:42...calling handleSugarConfig()
+2018-11-19 05:45:42...calling handleHtaccess()
+2018-11-19 05:45:42...calling handleDbCreateDatabase()
+2018-11-19 05:45:42...looping through all the Beans and create their tables
+2018-11-19 05:45:42...processing table acl_actions
+2018-11-19 05:45:42...creating table acl_actions
+2018-11-19 05:45:42...creating Relationship Meta for ACLAction
+2018-11-19 05:45:42...processing table acl_roles
+2018-11-19 05:45:42...creating table acl_roles
+2018-11-19 05:45:42...creating Relationship Meta for ACLRole
+2018-11-19 05:45:42...processing table relationships
+2018-11-19 05:45:42...creating table relationships
+2018-11-19 05:45:42...creating Relationship Meta for Relationship
+2018-11-19 05:45:42...processing table leads
+2018-11-19 05:45:42...creating table leads
+2018-11-19 05:45:42...creating Relationship Meta for Lead
+2018-11-19 05:45:42...processing table cases
+2018-11-19 05:45:42...creating table cases
+2018-11-19 05:45:42...creating Relationship Meta for Case
+2018-11-19 05:45:42...processing table bugs
+2018-11-19 05:45:42...creating table bugs
+2018-11-19 05:45:42...creating Relationship Meta for Bug
+2018-11-19 05:45:42...processing table users
+2018-11-19 05:45:42...creating table users
+2018-11-19 05:45:42...creating Relationship Meta for User
+2018-11-19 05:45:42...processing table campaign_log
+2018-11-19 05:45:42...creating table campaign_log
+2018-11-19 05:45:42...creating Relationship Meta for CampaignLog
+2018-11-19 05:45:42...processing table project
+2018-11-19 05:45:42...creating table project
+2018-11-19 05:45:42...creating Relationship Meta for Project
+2018-11-19 05:45:42...processing table project_task
+2018-11-19 05:45:42...creating table project_task
+2018-11-19 05:45:42...creating Relationship Meta for ProjectTask
+2018-11-19 05:45:42...processing table campaigns
+2018-11-19 05:45:42...creating table campaigns
+2018-11-19 05:45:42...creating Relationship Meta for Campaign
+2018-11-19 05:45:42...processing table prospect_lists
+2018-11-19 05:45:42...creating table prospect_lists
+2018-11-19 05:45:42...creating Relationship Meta for ProspectList
+2018-11-19 05:45:42...processing table prospects
+2018-11-19 05:45:42...creating table prospects
+2018-11-19 05:45:42...creating Relationship Meta for Prospect
+2018-11-19 05:45:42...processing table email_marketing
+2018-11-19 05:45:42...creating table email_marketing
+2018-11-19 05:45:42...creating Relationship Meta for EmailMarketing
+2018-11-19 05:45:42...processing table campaign_trkrs
+2018-11-19 05:45:42...creating table campaign_trkrs
+2018-11-19 05:45:42...creating Relationship Meta for CampaignTracker
+2018-11-19 05:45:42...processing table releases
+2018-11-19 05:45:42...creating table releases
+2018-11-19 05:45:42...creating Relationship Meta for Release
+2018-11-19 05:45:42...processing table emailman
+2018-11-19 05:45:42...creating table emailman
+2018-11-19 05:45:42...creating Relationship Meta for EmailMan
+2018-11-19 05:45:42...processing table schedulers
+2018-11-19 05:45:42...creating table schedulers
+2018-11-19 05:45:42...creating Relationship Meta for Scheduler
+2018-11-19 05:45:42...processing table job_queue
+2018-11-19 05:45:42...creating table job_queue
+2018-11-19 05:45:42...creating Relationship Meta for SchedulersJob
+2018-11-19 05:45:42...processing table contacts
+2018-11-19 05:45:42...creating table contacts
+2018-11-19 05:45:42...creating Relationship Meta for Contact
+2018-11-19 05:45:42...processing table accounts
+2018-11-19 05:45:42...creating table accounts
+2018-11-19 05:45:42...creating Relationship Meta for Account
+2018-11-19 05:45:43...processing table opportunities
+2018-11-19 05:45:43...creating table opportunities
+2018-11-19 05:45:43...creating Relationship Meta for Opportunity
+2018-11-19 05:45:43...processing table email_templates
+2018-11-19 05:45:43...creating table email_templates
+2018-11-19 05:45:43...creating Relationship Meta for EmailTemplate
+2018-11-19 05:45:43...processing table notes
+2018-11-19 05:45:43...creating table notes
+2018-11-19 05:45:43...creating Relationship Meta for Note
+2018-11-19 05:45:43...processing table calls
+2018-11-19 05:45:43...creating table calls
+2018-11-19 05:45:43...creating Relationship Meta for Call
+2018-11-19 05:45:43...processing table emails
+2018-11-19 05:45:43...creating table emails
+2018-11-19 05:45:43...creating Relationship Meta for Email
+2018-11-19 05:45:43...processing table meetings
+2018-11-19 05:45:43...creating table meetings
+2018-11-19 05:45:43...creating Relationship Meta for Meeting
+2018-11-19 05:45:43...processing table tasks
+2018-11-19 05:45:43...creating table tasks
+2018-11-19 05:45:43...creating Relationship Meta for Task
+2018-11-19 05:45:43...processing table users
+2018-11-19 05:45:43...processing table users
+2018-11-19 05:45:43...processing table currencies
+2018-11-19 05:45:43...creating table currencies
+2018-11-19 05:45:43...creating Relationship Meta for Currency
+2018-11-19 05:45:43...processing table tracker
+2018-11-19 05:45:43...creating table tracker
+2018-11-19 05:45:43...creating Relationship Meta for Tracker
+2018-11-19 05:45:43...processing table import_maps
+2018-11-19 05:45:43...creating table import_maps
+2018-11-19 05:45:43...creating Relationship Meta for ImportMap
+2018-11-19 05:45:43...processing table users_last_import
+2018-11-19 05:45:43...creating table users_last_import
+2018-11-19 05:45:43...creating Relationship Meta for UsersLastImport
+2018-11-19 05:45:43...processing table config
+2018-11-19 05:45:43...creating table config
+2018-11-19 05:45:43...creating Relationship Meta for Administration
+2018-11-19 05:45:43...processing table upgrade_history
+2018-11-19 05:45:43...creating table upgrade_history
+2018-11-19 05:45:43...creating Relationship Meta for UpgradeHistory
+2018-11-19 05:45:43...processing table vcals
+2018-11-19 05:45:43...creating table vcals
+2018-11-19 05:45:43...creating Relationship Meta for vCal
+2018-11-19 05:45:43...processing table alerts
+2018-11-19 05:45:43...creating table alerts
+2018-11-19 05:45:43...creating Relationship Meta for Alert
+2018-11-19 05:45:43...processing table roles
+2018-11-19 05:45:43...creating table roles
+2018-11-19 05:45:43...creating Relationship Meta for Role
+2018-11-19 05:45:43...processing table documents
+2018-11-19 05:45:43...creating table documents
+2018-11-19 05:45:43...creating Relationship Meta for Document
+2018-11-19 05:45:43...processing table document_revisions
+2018-11-19 05:45:43...creating table document_revisions
+2018-11-19 05:45:43...creating Relationship Meta for DocumentRevision
+2018-11-19 05:45:43...processing table fields_meta_data
+2018-11-19 05:45:43...creating table fields_meta_data
+2018-11-19 05:45:43...creating Relationship Meta for FieldsMetaData
+2018-11-19 05:45:43...processing table inbound_email
+2018-11-19 05:45:43...creating table inbound_email
+2018-11-19 05:45:43...creating Relationship Meta for InboundEmail
+2018-11-19 05:45:43...processing table saved_search
+2018-11-19 05:45:43...creating table saved_search
+2018-11-19 05:45:43...creating Relationship Meta for SavedSearch
+2018-11-19 05:45:43...processing table user_preferences
+2018-11-19 05:45:43...creating table user_preferences
+2018-11-19 05:45:43...creating Relationship Meta for UserPreference
+2018-11-19 05:45:43...processing table 
+2018-11-19 05:45:43...processing table email_addresses
+2018-11-19 05:45:43...creating table email_addresses
+2018-11-19 05:45:43...creating Relationship Meta for EmailAddress
+2018-11-19 05:45:43...processing table emails_text
+2018-11-19 05:45:43...creating table emails_text
+2018-11-19 05:45:43...creating Relationship Meta for EmailText
+2018-11-19 05:45:43...processing table spots
+2018-11-19 05:45:43...creating table spots
+2018-11-19 05:45:43...creating Relationship Meta for Spots
+2018-11-19 05:45:43...processing table aobh_businesshours
+2018-11-19 05:45:43...creating table aobh_businesshours
+2018-11-19 05:45:43...creating Relationship Meta for AOBH_BusinessHours
+2018-11-19 05:45:43...processing table sugarfeed
+2018-11-19 05:45:43...creating table sugarfeed
+2018-11-19 05:45:43...creating Relationship Meta for SugarFeed
+2018-11-19 05:45:43...processing table eapm
+2018-11-19 05:45:43...creating table eapm
+2018-11-19 05:45:43...creating Relationship Meta for EAPM
+2018-11-19 05:45:43...processing table oauth_consumer
+2018-11-19 05:45:43...creating table oauth_consumer
+2018-11-19 05:45:43...creating Relationship Meta for OAuthKey
+2018-11-19 05:45:43...processing table oauth_tokens
+2018-11-19 05:45:43...creating table oauth_tokens
+2018-11-19 05:45:43...creating Relationship Meta for OAuthToken
+2018-11-19 05:45:43...processing table am_projecttemplates
+2018-11-19 05:45:43...creating table am_projecttemplates
+2018-11-19 05:45:43...creating Relationship Meta for AM_ProjectTemplates
+2018-11-19 05:45:43...processing table am_tasktemplates
+2018-11-19 05:45:43...creating table am_tasktemplates
+2018-11-19 05:45:43...creating Relationship Meta for AM_TaskTemplates
+2018-11-19 05:45:43...processing table favorites
+2018-11-19 05:45:43...creating table favorites
+2018-11-19 05:45:43...creating Relationship Meta for Favorites
+2018-11-19 05:45:43...processing table aok_knowledge_base_categories
+2018-11-19 05:45:43...creating table aok_knowledge_base_categories
+2018-11-19 05:45:43...creating Relationship Meta for AOK_Knowledge_Base_Categories
+2018-11-19 05:45:43...processing table aok_knowledgebase
+2018-11-19 05:45:43...creating table aok_knowledgebase
+2018-11-19 05:45:43...creating Relationship Meta for AOK_KnowledgeBase
+2018-11-19 05:45:43...processing table reminders
+2018-11-19 05:45:43...creating table reminders
+2018-11-19 05:45:43...creating Relationship Meta for Reminder
+2018-11-19 05:45:43...processing table reminders_invitees
+2018-11-19 05:45:43...creating table reminders_invitees
+2018-11-19 05:45:43...creating Relationship Meta for Reminder_Invitee
+2018-11-19 05:45:43...processing table fp_events
+2018-11-19 05:45:43...creating table fp_events
+2018-11-19 05:45:43...creating Relationship Meta for FP_events
+2018-11-19 05:45:43...processing table fp_event_locations
+2018-11-19 05:45:43...creating table fp_event_locations
+2018-11-19 05:45:43...creating Relationship Meta for FP_Event_Locations
+2018-11-19 05:45:43...processing table aod_indexevent
+2018-11-19 05:45:43...creating table aod_indexevent
+2018-11-19 05:45:43...creating Relationship Meta for AOD_IndexEvent
+2018-11-19 05:45:43...processing table aod_index
+2018-11-19 05:45:44...creating table aod_index
+2018-11-19 05:45:44...creating Relationship Meta for AOD_Index
+2018-11-19 05:45:44...processing table aop_case_events
+2018-11-19 05:45:44...creating table aop_case_events
+2018-11-19 05:45:44...creating Relationship Meta for AOP_Case_Events
+2018-11-19 05:45:44...processing table aop_case_updates
+2018-11-19 05:45:44...creating table aop_case_updates
+2018-11-19 05:45:44...creating Relationship Meta for AOP_Case_Updates
+2018-11-19 05:45:44...processing table aor_reports
+2018-11-19 05:45:44...creating table aor_reports
+2018-11-19 05:45:44...creating Relationship Meta for AOR_Report
+2018-11-19 05:45:44...processing table aor_fields
+2018-11-19 05:45:44...creating table aor_fields
+2018-11-19 05:45:44...creating Relationship Meta for AOR_Field
+2018-11-19 05:45:44...processing table aor_charts
+2018-11-19 05:45:44...creating table aor_charts
+2018-11-19 05:45:44...creating Relationship Meta for AOR_Chart
+2018-11-19 05:45:44...processing table aor_conditions
+2018-11-19 05:45:44...creating table aor_conditions
+2018-11-19 05:45:44...creating Relationship Meta for AOR_Condition
+2018-11-19 05:45:44...processing table aor_scheduled_reports
+2018-11-19 05:45:44...creating table aor_scheduled_reports
+2018-11-19 05:45:44...creating Relationship Meta for AOR_Scheduled_Reports
+2018-11-19 05:45:44...processing table aos_contracts
+2018-11-19 05:45:44...creating table aos_contracts
+2018-11-19 05:45:44...creating Relationship Meta for AOS_Contracts
+2018-11-19 05:45:44...processing table aos_invoices
+2018-11-19 05:45:44...creating table aos_invoices
+2018-11-19 05:45:44...creating Relationship Meta for AOS_Invoices
+2018-11-19 05:45:44...processing table aos_pdf_templates
+2018-11-19 05:45:44...creating table aos_pdf_templates
+2018-11-19 05:45:44...creating Relationship Meta for AOS_PDF_Templates
+2018-11-19 05:45:44...processing table aos_product_categories
+2018-11-19 05:45:44...creating table aos_product_categories
+2018-11-19 05:45:44...creating Relationship Meta for AOS_Product_Categories
+2018-11-19 05:45:44...processing table aos_products
+2018-11-19 05:45:44...creating table aos_products
+2018-11-19 05:45:44...creating Relationship Meta for AOS_Products
+2018-11-19 05:45:44...processing table aos_products_quotes
+2018-11-19 05:45:44...creating table aos_products_quotes
+2018-11-19 05:45:44...creating Relationship Meta for AOS_Products_Quotes
+2018-11-19 05:45:44...processing table aos_line_item_groups
+2018-11-19 05:45:44...creating table aos_line_item_groups
+2018-11-19 05:45:44...creating Relationship Meta for AOS_Line_Item_Groups
+2018-11-19 05:45:44...processing table aos_quotes
+2018-11-19 05:45:44...creating table aos_quotes
+2018-11-19 05:45:44...creating Relationship Meta for AOS_Quotes
+2018-11-19 05:45:44...processing table aow_actions
+2018-11-19 05:45:44...creating table aow_actions
+2018-11-19 05:45:44...creating Relationship Meta for AOW_Action
+2018-11-19 05:45:44...processing table aow_workflow
+2018-11-19 05:45:44...creating table aow_workflow
+2018-11-19 05:45:44...creating Relationship Meta for AOW_WorkFlow
+2018-11-19 05:45:44...processing table aow_processed
+2018-11-19 05:45:44...creating table aow_processed
+2018-11-19 05:45:44...creating Relationship Meta for AOW_Processed
+2018-11-19 05:45:44...processing table aow_conditions
+2018-11-19 05:45:44...creating table aow_conditions
+2018-11-19 05:45:44...creating Relationship Meta for AOW_Condition
+2018-11-19 05:45:44...processing table jjwg_maps
+2018-11-19 05:45:44...creating table jjwg_maps
+2018-11-19 05:45:44...creating Relationship Meta for jjwg_Maps
+2018-11-19 05:45:44...processing table jjwg_markers
+2018-11-19 05:45:44...creating table jjwg_markers
+2018-11-19 05:45:44...creating Relationship Meta for jjwg_Markers
+2018-11-19 05:45:44...processing table jjwg_areas
+2018-11-19 05:45:44...creating table jjwg_areas
+2018-11-19 05:45:44...creating Relationship Meta for jjwg_Areas
+2018-11-19 05:45:44...processing table jjwg_address_cache
+2018-11-19 05:45:44...creating table jjwg_address_cache
+2018-11-19 05:45:44...creating Relationship Meta for jjwg_Address_Cache
+2018-11-19 05:45:44...processing table calls_reschedule
+2018-11-19 05:45:44...creating table calls_reschedule
+2018-11-19 05:45:44...creating Relationship Meta for Calls_Reschedule
+2018-11-19 05:45:44...processing table securitygroups
+2018-11-19 05:45:44...creating table securitygroups
+2018-11-19 05:45:44...creating Relationship Meta for SecurityGroup
+2018-11-19 05:45:44...processing table outbound_email
+2018-11-19 05:45:45...creating table outbound_email
+2018-11-19 05:45:45...creating Relationship Meta for OutboundEmailAccounts
+2018-11-19 05:45:45...processing table templatesectionline
+2018-11-19 05:45:45...creating table templatesectionline
+2018-11-19 05:45:45...creating Relationship Meta for TemplateSectionLine
+2018-11-19 05:45:45...processing table oauth2tokens
+2018-11-19 05:45:45...creating table oauth2tokens
+2018-11-19 05:45:45...creating Relationship Meta for OAuth2Tokens
+2018-11-19 05:45:45...processing table oauth2clients
+2018-11-19 05:45:45...creating table oauth2clients
+2018-11-19 05:45:45...creating Relationship Meta for OAuth2Clients
+2018-11-19 05:45:45...processing table surveyresponses
+2018-11-19 05:45:45...creating table surveyresponses
+2018-11-19 05:45:45...creating Relationship Meta for SurveyResponses
+2018-11-19 05:45:45...processing table surveys
+2018-11-19 05:45:45...creating table surveys
+2018-11-19 05:45:45...creating Relationship Meta for Surveys
+2018-11-19 05:45:45...processing table surveyquestionresponses
+2018-11-19 05:45:45...creating table surveyquestionresponses
+2018-11-19 05:45:45...creating Relationship Meta for SurveyQuestionResponses
+2018-11-19 05:45:45...processing table surveyquestions
+2018-11-19 05:45:45...creating table surveyquestions
+2018-11-19 05:45:45...creating Relationship Meta for SurveyQuestions
+2018-11-19 05:45:45...processing table surveyquestionoptions
+2018-11-19 05:45:45...creating table surveyquestionoptions
+2018-11-19 05:45:45...creating Relationship Meta for SurveyQuestionOptions
+2018-11-19 05:45:46...Begin creating Defaults
+2018-11-19 05:45:46...insert defaults into config table
+2018-11-19 05:45:46...Creating default users
+2018-11-19 05:45:46...Creating default scheduler jobs
+2018-11-19 05:45:46...Enable SugarFeeds
+2018-11-19 05:45:46...Installation has completed *********
+2018-11-19 05:45:47...populating the db with seed data
+2018-11-19 05:45:47...Save configuration settings..
+2018-11-19 05:45:47...save locale
+2018-11-19 05:45:47...new Administration
+2018-11-19 05:45:47...retrieveSettings
+2018-11-19 05:45:47...AdminWizard OFF
+2018-11-19 05:45:47...saveConfig
+2018-11-19 05:45:47...new Configurator
+2018-11-19 05:45:47...populateFromPost
+2018-11-19 05:45:47...handleOverride
+2018-11-19 05:45:47...addCronAllowedUser
+2018-11-19 05:45:47...saveConfig
+2018-11-19 05:45:47...new Currency
+2018-11-19 05:45:47...retrieve
+2018-11-19 05:45:47...DBG: save currency
+2018-11-19 05:45:47...Save user settings..
+2018-11-19 05:45:47...DBG: SugarThemeRegistry::getDefault
+2018-11-19 05:45:47...DBG: require modules/Users/Save.php
+2018-11-19 05:46:04...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute

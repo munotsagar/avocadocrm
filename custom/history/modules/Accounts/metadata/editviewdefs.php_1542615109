@@ -1,0 +1,245 @@
+<?php
+$viewdefs ['Accounts'] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'SAVE',
+          1 => 'CANCEL',
+        ),
+      ),
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'includes' => 
+      array (
+        0 => 
+        array (
+          'file' => 'modules/Accounts/Account.js',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'LBL_ACCOUNT_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_PANEL_ADVANCED' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'lbl_account_information' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'name',
+            'label' => 'LBL_NAME',
+            'displayParams' => 
+            array (
+              'required' => true,
+            ),
+          ),
+          1 => 
+          array (
+            'name' => 'photo_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PHOTO',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 'employees',
+          1 => 
+          array (
+            'name' => 'gender_c',
+            'studio' => 'visible',
+            'label' => 'LBL_GENDER',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sic_code',
+            'comment' => 'SIC code of the account',
+            'label' => 'LBL_SIC_CODE',
+          ),
+          1 => 
+          array (
+            'name' => 'leadsource_c',
+            'studio' => 'visible',
+            'label' => 'LBL_LEADSOURCE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'phone_alternate',
+            'comment' => 'An alternate phone number',
+            'label' => 'LBL_PHONE_ALT',
+          ),
+          1 => 
+          array (
+            'name' => 'nationality_c',
+            'studio' => 'visible',
+            'label' => 'LBL_NATIONALITY',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'phone_office',
+            'label' => 'LBL_PHONE_OFFICE',
+          ),
+          1 => 
+          array (
+            'name' => 'maritalstatus_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MARITALSTATUS',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'phone_fax',
+            'label' => 'LBL_FAX',
+          ),
+          1 => 'industry',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'customerdiscount_c',
+            'label' => 'LBL_CUSTOMERDISCOUNT',
+          ),
+          1 => 
+          array (
+            'name' => 'customerrating_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CUSTOMERRATING',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'dateofbirth_c',
+            'label' => 'LBL_DATEOFBIRTH',
+          ),
+          1 => 
+          array (
+            'name' => 'typeofbusiness_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPEOFBUSINESS',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'billing_address_street',
+            'hideLabel' => true,
+            'type' => 'address',
+            'displayParams' => 
+            array (
+              'key' => 'billing',
+              'rows' => 2,
+              'cols' => 30,
+              'maxlength' => 150,
+            ),
+          ),
+          1 => 
+          array (
+            'name' => 'shipping_address_street',
+            'hideLabel' => true,
+            'type' => 'address',
+            'displayParams' => 
+            array (
+              'key' => 'shipping',
+              'copy' => 'billing',
+              'rows' => 2,
+              'cols' => 30,
+              'maxlength' => 150,
+            ),
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ownership',
+            'comment' => '',
+            'label' => 'LBL_OWNERSHIP',
+          ),
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'email1',
+            'studio' => 'false',
+            'label' => 'LBL_EMAIL',
+          ),
+        ),
+        11 => 
+        array (
+          0 => '',
+        ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'label' => 'LBL_DESCRIPTION',
+          ),
+        ),
+      ),
+      'LBL_PANEL_ADVANCED' => 
+      array (
+        0 => 
+        array (
+          0 => 'account_type',
+        ),
+        1 => 
+        array (
+          0 => 'annual_revenue',
+        ),
+        2 => 
+        array (
+          0 => 'parent_name',
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>
