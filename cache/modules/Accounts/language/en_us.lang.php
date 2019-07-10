@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-30 20:24:41
+// created: 2019-07-10 15:24:24
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created:',
@@ -180,4 +180,15 @@ $mod_strings = array (
   'LBL_YEAR3' => 'Year',
   'LBL_EDITVIEW_PANEL2' => 'Card Details 2',
   'LBL_EDITVIEW_PANEL3' => 'Card Details 3',
+  'LBL_REFERENCE_1' => 'Reference 1',
+  'LBL_REFERENCE_2' => 'Reference 2',
+  'LBL_REFERENCE_3' => 'Reference 3',
+  'LBL_ACCOUNTS_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Contacts',
+  'LBL_ACCOUNTS_DOCUMENTS_1_FROM_DOCUMENTS_TITLE' => 'Documents',
+  'LBL_ACCOUNTS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Events',
+  'LBL_ACCOUNTS_CASES_1_FROM_CASES_TITLE' => 'Cases',
+  'LBL_CREDIT_LINE' => 'Credit Line',
+  'LBL_TERMS' => 'Net Terms',
+  'LBL_ACCOUNTS_FP_EVENTS_2_FROM_FP_EVENTS_TITLE' => 'Events',
+  'LBL_ACCOUNTS_CALLS_1_FROM_CALLS_TITLE' => 'Calls',
 );

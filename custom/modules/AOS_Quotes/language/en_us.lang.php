@@ -1,13 +1,13 @@
 <?php
-// created: 2019-01-16 16:14:04
+// created: 2019-07-05 06:17:50
 $mod_strings = array (
   'LNK_NEW_RECORD' => 'Create Order',
   'LNK_LIST' => 'View Orders',
   'MSG_SHOW_DUPLICATES' => 'Creating this account may potentially create a duplicate account. You may either click on Save to continue creating this new account with the previously entered data or you may click Cancel.',
   'LBL_LIST_FORM_TITLE' => 'Order List',
   'LBL_SEARCH_FORM_TITLE' => 'Search Order',
-  'LBL_BILLING_ACCOUNT' => 'Customer',
-  'LBL_ACCOUNTS' => 'Customers',
+  'LBL_BILLING_ACCOUNT' => 'Account',
+  'LBL_ACCOUNTS' => 'Accounts',
   'LBL_HOMEPAGE_TITLE' => 'My Orders',
   'LBL_NAME' => 'Order Name',
   'LBL_CUSTOMERID' => 'Customer ID',

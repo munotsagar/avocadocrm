@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-01-30 20:24:55
+<?php /* Smarty version 2.6.31, created on 2019-07-09 07:39:23
          compiled from themes/SuiteP/include/SearchForm/tpls/header.tpl */ ?>
 {*
 /**
@@ -133,4 +133,4 @@
                  class="edit view search {$tabData.name}">{if $tabData.displayDiv}{else}{$return_txt}{/if}</div>
         {/foreach}
         <div id='{$module}saved_viewsSearchForm'
-             <?php if ($this->_tpl_vars['displayView'] != 'saved_views'): ?>style='display: none;'<?php endif; ?>>{$saved_views_txt}</div>
+             <?php if ($this->_tpl_vars['displayView'] != 'saved_views'): ?>style='display: none;'<?php endif; ?>>{$saved_views_txt}</div>

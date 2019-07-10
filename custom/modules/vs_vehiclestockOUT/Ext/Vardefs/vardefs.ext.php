@@ -2,8 +2,7 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2018-12-03 13:17:51
-$dictionary['vs_vehiclestockOUT']['fields']['fyn_vehicle_id_c']['inline_edit']=1;
+ // created: 2018-12-03 13:19:21
 
  
 
@@ -41,81 +40,9 @@ $dictionary["vs_vehiclestockOUT"]["fields"]["fyn_vehicle_vs_vehiclestockout_1fyn
 );
 
 
-// created: 2018-12-03 17:25:55
-$dictionary["vs_vehiclestockOUT"]["fields"]["aos_invoices_vs_vehiclestockout_1"] = array (
-  'name' => 'aos_invoices_vs_vehiclestockout_1',
-  'type' => 'link',
-  'relationship' => 'aos_invoices_vs_vehiclestockout_1',
-  'source' => 'non-db',
-  'module' => 'AOS_Invoices',
-  'bean_name' => 'AOS_Invoices',
-  'vname' => 'LBL_AOS_INVOICES_VS_VEHICLESTOCKOUT_1_FROM_AOS_INVOICES_TITLE',
-  'id_name' => 'aos_invoices_vs_vehiclestockout_1aos_invoices_ida',
-);
-$dictionary["vs_vehiclestockOUT"]["fields"]["aos_invoices_vs_vehiclestockout_1_name"] = array (
-  'name' => 'aos_invoices_vs_vehiclestockout_1_name',
-  'type' => 'relate',
-  'source' => 'non-db',
-  'vname' => 'LBL_AOS_INVOICES_VS_VEHICLESTOCKOUT_1_FROM_AOS_INVOICES_TITLE',
-  'save' => true,
-  'id_name' => 'aos_invoices_vs_vehiclestockout_1aos_invoices_ida',
-  'link' => 'aos_invoices_vs_vehiclestockout_1',
-  'table' => 'aos_invoices',
-  'module' => 'AOS_Invoices',
-  'rname' => 'name',
-);
-$dictionary["vs_vehiclestockOUT"]["fields"]["aos_invoices_vs_vehiclestockout_1aos_invoices_ida"] = array (
-  'name' => 'aos_invoices_vs_vehiclestockout_1aos_invoices_ida',
-  'type' => 'link',
-  'relationship' => 'aos_invoices_vs_vehiclestockout_1',
-  'source' => 'non-db',
-  'reportable' => false,
-  'side' => 'right',
-  'vname' => 'LBL_AOS_INVOICES_VS_VEHICLESTOCKOUT_1_FROM_VS_VEHICLESTOCKOUT_TITLE',
-);
-
-
- // created: 2018-12-03 17:51:02
-
- 
-
-// created: 2018-11-30 21:04:02
-$dictionary["vs_vehiclestockOUT"]["fields"]["aos_products_vs_vehiclestockout_1"] = array (
-  'name' => 'aos_products_vs_vehiclestockout_1',
-  'type' => 'link',
-  'relationship' => 'aos_products_vs_vehiclestockout_1',
-  'source' => 'non-db',
-  'module' => 'AOS_Products',
-  'bean_name' => 'AOS_Products',
-  'vname' => 'LBL_AOS_PRODUCTS_VS_VEHICLESTOCKOUT_1_FROM_AOS_PRODUCTS_TITLE',
-  'id_name' => 'aos_products_vs_vehiclestockout_1aos_products_ida',
-);
-$dictionary["vs_vehiclestockOUT"]["fields"]["aos_products_vs_vehiclestockout_1_name"] = array (
-  'name' => 'aos_products_vs_vehiclestockout_1_name',
-  'type' => 'relate',
-  'source' => 'non-db',
-  'vname' => 'LBL_AOS_PRODUCTS_VS_VEHICLESTOCKOUT_1_FROM_AOS_PRODUCTS_TITLE',
-  'save' => true,
-  'id_name' => 'aos_products_vs_vehiclestockout_1aos_products_ida',
-  'link' => 'aos_products_vs_vehiclestockout_1',
-  'table' => 'aos_products',
-  'module' => 'AOS_Products',
-  'rname' => 'name',
-);
-$dictionary["vs_vehiclestockOUT"]["fields"]["aos_products_vs_vehiclestockout_1aos_products_ida"] = array (
-  'name' => 'aos_products_vs_vehiclestockout_1aos_products_ida',
-  'type' => 'link',
-  'relationship' => 'aos_products_vs_vehiclestockout_1',
-  'source' => 'non-db',
-  'reportable' => false,
-  'side' => 'right',
-  'vname' => 'LBL_AOS_PRODUCTS_VS_VEHICLESTOCKOUT_1_FROM_VS_VEHICLESTOCKOUT_TITLE',
-);
-
-
- // created: 2018-11-30 19:25:44
-$dictionary['vs_vehiclestockOUT']['fields']['do_not_delete_c']['inline_edit']='1';
-$dictionary['vs_vehiclestockOUT']['fields']['do_not_delete_c']['labelValue']='do not delete';
+ // created: 2018-12-03 13:17:51
+$dictionary['vs_vehiclestockOUT']['fields']['to_vehicle_c']['inline_edit']='1';
+$dictionary['vs_vehiclestockOUT']['fields']['to_vehicle_c']['labelValue']='To Vehicle';
 
  
 
@@ -153,13 +80,52 @@ $dictionary["vs_vehiclestockOUT"]["fields"]["fyn_qr_code_boxes_vs_vehiclestockou
 );
 
 
- // created: 2018-12-03 13:19:21
+ // created: 2018-12-03 17:51:02
 
  
 
  // created: 2018-12-03 13:17:51
-$dictionary['vs_vehiclestockOUT']['fields']['to_vehicle_c']['inline_edit']='1';
-$dictionary['vs_vehiclestockOUT']['fields']['to_vehicle_c']['labelValue']='To Vehicle';
+$dictionary['vs_vehiclestockOUT']['fields']['fyn_vehicle_id_c']['inline_edit']=1;
+
+ 
+
+// created: 2018-12-03 17:25:55
+$dictionary["vs_vehiclestockOUT"]["fields"]["aos_invoices_vs_vehiclestockout_1"] = array (
+  'name' => 'aos_invoices_vs_vehiclestockout_1',
+  'type' => 'link',
+  'relationship' => 'aos_invoices_vs_vehiclestockout_1',
+  'source' => 'non-db',
+  'module' => 'AOS_Invoices',
+  'bean_name' => 'AOS_Invoices',
+  'vname' => 'LBL_AOS_INVOICES_VS_VEHICLESTOCKOUT_1_FROM_AOS_INVOICES_TITLE',
+  'id_name' => 'aos_invoices_vs_vehiclestockout_1aos_invoices_ida',
+);
+$dictionary["vs_vehiclestockOUT"]["fields"]["aos_invoices_vs_vehiclestockout_1_name"] = array (
+  'name' => 'aos_invoices_vs_vehiclestockout_1_name',
+  'type' => 'relate',
+  'source' => 'non-db',
+  'vname' => 'LBL_AOS_INVOICES_VS_VEHICLESTOCKOUT_1_FROM_AOS_INVOICES_TITLE',
+  'save' => true,
+  'id_name' => 'aos_invoices_vs_vehiclestockout_1aos_invoices_ida',
+  'link' => 'aos_invoices_vs_vehiclestockout_1',
+  'table' => 'aos_invoices',
+  'module' => 'AOS_Invoices',
+  'rname' => 'name',
+);
+$dictionary["vs_vehiclestockOUT"]["fields"]["aos_invoices_vs_vehiclestockout_1aos_invoices_ida"] = array (
+  'name' => 'aos_invoices_vs_vehiclestockout_1aos_invoices_ida',
+  'type' => 'link',
+  'relationship' => 'aos_invoices_vs_vehiclestockout_1',
+  'source' => 'non-db',
+  'reportable' => false,
+  'side' => 'right',
+  'vname' => 'LBL_AOS_INVOICES_VS_VEHICLESTOCKOUT_1_FROM_VS_VEHICLESTOCKOUT_TITLE',
+);
+
+
+ // created: 2018-11-30 19:25:44
+$dictionary['vs_vehiclestockOUT']['fields']['do_not_delete_c']['inline_edit']='1';
+$dictionary['vs_vehiclestockOUT']['fields']['do_not_delete_c']['labelValue']='do not delete';
 
  
 ?>

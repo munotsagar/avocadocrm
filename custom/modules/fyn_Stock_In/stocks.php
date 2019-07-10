@@ -38,8 +38,10 @@ class Stock_Products
 		$query =$db->query("SELECT * FROM aos_products_cstm WHERE id_c='".$parent_id."'");
 		$row = $db->fetchByAssoc($query);
 		$stockin = $row['stockin_c']; 
+		$balance = $row['balance_c'];
 		$totstockin = $row['stock_in_from_farm_c'];
 		$stockin_toupdate1 =  $stockin+$quantity;
+		$balance_c = $balance+$quantity;
 		$stockout = $row['stockout_c']; 
 		$new_order = $row['stagging_inventory_c'];
 		
@@ -49,7 +51,8 @@ class Stock_Products
 		$totstockin = $row123['stock_in_from_farm_c'];
 		if($bean->do_not_delete_c == ""){
 		if($bean->from1_c == 'Farm' || $bean->from1_c == "" ){
-			$stockin_toupdate2 =  $totstockin+$quantity;
+			//$stockin_toupdate2 =  $totstockin+$quantity;
+			$stockin_toupdate2 =  $quantity;
 			$query2 = $db->query("UPDATE aos_products_cstm SET stock_in_from_farm_c = '".$stockin_toupdate2."' WHERE id_c = '".$parent_id."'");
 		}
 	}
@@ -64,13 +67,14 @@ class Stock_Products
 				$query2 = $db->query("UPDATE aos_products_cstm SET stockin_c = '".$stockin_toupdate1."' WHERE id_c = '".$parent_id."'");
 				//}
 				if($row['stockout_c'] >= 1) {
-				$bal = $stockin_toupdate1 - $stockout;
+				//$bal = $stockin_toupdate1 - $stockout;
 				}
 				//else { $bal = 0; }
 				if(($row['stockout_c'] == "") || ($row['stockout_c'] == 0)) {
-				$bal = $stockin_toupdate1;
+				//$bal = $stockin_toupdate1;
 				}
-				$query2 = $db->query("UPDATE aos_products_cstm SET balance_c = '".$bal."' WHERE id_c = '".$parent_id."'");
+				$quantity = $bean->quantity;
+				$query2 = $db->query("UPDATE aos_products_cstm SET balance_c = '".$balance_c."' WHERE id_c = '".$parent_id."'");
 				}
 				if($stockin_toupdate1 >= $stockout)
 				{ 

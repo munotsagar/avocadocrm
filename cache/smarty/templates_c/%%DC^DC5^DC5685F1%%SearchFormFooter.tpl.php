@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-01-30 20:24:55
+<?php /* Smarty version 2.6.31, created on 2019-07-10 05:23:51
          compiled from cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/SearchFormFooter.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getimagepath', 'cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/SearchFormFooter.tpl', 11, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/SearchFormFooter.tpl', 12, false),)), $this); ?>
@@ -41,3 +41,4 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
 <?php endif; ?>
+

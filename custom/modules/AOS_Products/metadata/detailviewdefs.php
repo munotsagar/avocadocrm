@@ -37,8 +37,20 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_DETAILVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
+    ),
+    'includes' => 
+    array (
+      0 => 
+      array (
+        'file' => 'custom/modules/AOS_Products/js/jquery-1.10.2.js',
+      ),
     ),
     'panels' => 
     array (
@@ -61,13 +73,13 @@ array (
         array (
           0 => 
           array (
-            'name' => 'product_model_code_c',
-            'label' => 'LBL_PRODUCT_MODEL_CODE',
+            'name' => 'price',
+            'label' => 'LBL_PRICE',
           ),
           1 => 
           array (
-            'name' => 'price',
-            'label' => 'LBL_PRICE',
+            'name' => 'product_qr_code_c',
+            'label' => 'LBL_PRODUCT_QR_CODE',
           ),
         ),
         2 => 
@@ -87,37 +99,16 @@ array (
         array (
           0 => 
           array (
-            'name' => 'stockout_c',
-            'label' => 'LBL_STOCKOUT',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'balance_c',
-            'label' => 'LBL_BALANCE',
-          ),
-          1 => 
-          array (
             'name' => 'type',
             'label' => 'LBL_TYPE',
           ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'stagging_inventory_c',
-            'label' => 'LBL_STAGGING_INVENTORY',
-          ),
           1 => 
           array (
-            'name' => 'opencartbalancestock_c',
-            'label' => 'LBL_OPENCARTBALANCESTOCK',
+            'name' => 'backorders_count_c',
+            'label' => 'LBL_BACKORDERS_COUNT',
           ),
         ),
-        6 => 
+        4 => 
         array (
           0 => 
           array (
@@ -131,7 +122,7 @@ array (
             'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
         ),
-        7 => 
+        5 => 
         array (
           0 => 
           array (
@@ -139,9 +130,13 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CATEGORY',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'minimum_quantity_onhand_c',
+            'label' => 'LBL_MINIMUM_QUANTITY_ONHAND',
+          ),
         ),
-        8 => 
+        6 => 
         array (
           0 => 
           array (
@@ -152,6 +147,48 @@ array (
           array (
             'name' => 'order_update_daily_c',
             'label' => 'LBL_ORDER_UPDATE_DAILY',
+          ),
+        ),
+      ),
+      'lbl_detailview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'balance_c',
+            'label' => 'LBL_BALANCE',
+          ),
+          1 => 
+          array (
+            'name' => 'disposable_c',
+            'label' => 'LBL_DISPOSABLE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'reserve_c',
+            'label' => 'LBL_RESERVE',
+          ),
+          1 => 
+          array (
+            'name' => 'defect_c',
+            'label' => 'LBL_DEFECT',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'unknown_c',
+            'label' => 'LBL_UNKNOWN',
+          ),
+          1 => 
+          array (
+            'name' => 'internal_locations_c',
+            'label' => 'LBL_INTERNAL_LOCATIONS',
           ),
         ),
       ),

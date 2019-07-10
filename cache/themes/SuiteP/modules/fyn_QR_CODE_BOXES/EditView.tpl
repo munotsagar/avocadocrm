@@ -92,10 +92,10 @@
 
 
 
-<div class="col-xs-12 col-sm-6 edit-view-row-item">
+<div class="col-xs-12 col-sm-12 edit-view-row-item">
 
 
-<div class="col-xs-12 col-sm-4 label" data-label="LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE">
+<div class="col-xs-12 col-sm-2 label" data-label="LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE">
 
 {minify}
 {capture name="label" assign="label"}{sugar_translate label='LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE' module='fyn_QR_CODE_BOXES'}{/capture}
@@ -104,7 +104,7 @@
 {/minify}
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="relate" field="aos_products_fyn_qr_code_boxes_1_name"  >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="relate" field="aos_products_fyn_qr_code_boxes_1_name" colspan='3' >
 {counter name="panelFieldCount" print=false}
 
 <input type="text" name="{$fields.aos_products_fyn_qr_code_boxes_1_name.name}" class="sqsEnabled" tabindex="0" id="{$fields.aos_products_fyn_qr_code_boxes_1_name.name}" size="" value="{$fields.aos_products_fyn_qr_code_boxes_1_name.value}" title='' autocomplete="off"  	 >
@@ -131,16 +131,11 @@ SUGAR.util.doWhen(
 		"typeof(sqs_objects) != 'undefined' && typeof(sqs_objects['{$form_name}_{$fields.aos_products_fyn_qr_code_boxes_1_name.name}']) != 'undefined'",
 		enableQS
 );
-</script>
+</script>
 </div>
 
 <!-- [/hide] -->
 </div>
-
-
-<div class="col-xs-12 col-sm-6 edit-view-row-item">
-</div>
-<div class="clear"></div>
 <div class="clear"></div>
 
 
@@ -184,7 +179,7 @@ SUGAR.util.doWhen(
 		"typeof(sqs_objects) != 'undefined' && typeof(sqs_objects['{$form_name}_{$fields.fyn_qr_code_pallette_fyn_qr_code_boxes_1_name.name}']) != 'undefined'",
 		enableQS
 );
-</script>
+</script>
 </div>
 
 <!-- [/hide] -->
@@ -263,13 +258,13 @@ SUGAR.util.doWhen(
 		"typeof(sqs_objects) != 'undefined' && typeof(sqs_objects['{$form_name}_{$fields.assigned_user_name.name}']) != 'undefined'",
 		enableQS
 );
-</script>
+</script>
 </div>
 
 <!-- [/hide] -->
 </div>
 <div class="clear"></div>
-</div>                    </div>
+</div>                    </div>
 </div>
 </div>
 </div>
@@ -378,9 +373,10 @@ addToValidate('EditView', 'assigned_user_name', 'relate', false,'{/literal}{suga
 addToValidate('EditView', 'no_of_boxes', 'varchar', false,'{/literal}{sugar_translate label='LBL_NO_OF_BOXES' module='fyn_QR_CODE_BOXES' for_js=true}{literal}' );
 addToValidate('EditView', 'qr_image', 'image', false,'{/literal}{sugar_translate label='LBL_QR_IMAGE' module='fyn_QR_CODE_BOXES' for_js=true}{literal}' );
 addToValidate('EditView', 'truck_info', 'varchar', false,'{/literal}{sugar_translate label='LBL_TRUCK_INFO' module='fyn_QR_CODE_BOXES' for_js=true}{literal}' );
-addToValidate('EditView', 'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name', 'relate', false,'{/literal}{sugar_translate label='LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE' module='fyn_QR_CODE_BOXES' for_js=true}{literal}' );
+addToValidate('EditView', 'fyn_stock_in_fyn_qr_code_boxes_1_name', 'relate', false,'{/literal}{sugar_translate label='LBL_FYN_STOCK_IN_FYN_QR_CODE_BOXES_1_FROM_FYN_STOCK_IN_TITLE' module='fyn_QR_CODE_BOXES' for_js=true}{literal}' );
 addToValidate('EditView', 'aos_products_fyn_qr_code_boxes_1_name', 'relate', false,'{/literal}{sugar_translate label='LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE' module='fyn_QR_CODE_BOXES' for_js=true}{literal}' );
+addToValidate('EditView', 'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name', 'relate', false,'{/literal}{sugar_translate label='LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE' module='fyn_QR_CODE_BOXES' for_js=true}{literal}' );
 addToValidateBinaryDependency('EditView', 'assigned_user_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='fyn_QR_CODE_BOXES' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_ASSIGNED_TO' module='fyn_QR_CODE_BOXES' for_js=true}{literal}', 'assigned_user_id' );
-addToValidateBinaryDependency('EditView', 'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='fyn_QR_CODE_BOXES' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE' module='fyn_QR_CODE_BOXES' for_js=true}{literal}', 'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida' );
 addToValidateBinaryDependency('EditView', 'aos_products_fyn_qr_code_boxes_1_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='fyn_QR_CODE_BOXES' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE' module='fyn_QR_CODE_BOXES' for_js=true}{literal}', 'aos_products_fyn_qr_code_boxes_1aos_products_ida' );
+addToValidateBinaryDependency('EditView', 'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='fyn_QR_CODE_BOXES' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE' module='fyn_QR_CODE_BOXES' for_js=true}{literal}', 'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida' );
 </script><script language="javascript">if(typeof sqs_objects == 'undefined'){var sqs_objects = new Array;}sqs_objects['EditView_aos_products_fyn_qr_code_boxes_1_name']={"form":"EditView","method":"query","modules":["AOS_Products"],"group":"or","field_list":["name","id"],"populate_list":["aos_products_fyn_qr_code_boxes_1_name","aos_products_fyn_qr_code_boxes_1aos_products_ida"],"required_list":["parent_id"],"conditions":[{"name":"name","op":"like_custom","end":"%","value":""}],"order":"name","limit":"30","no_match_text":"No Match"};sqs_objects['EditView_fyn_qr_code_pallette_fyn_qr_code_boxes_1_name']={"form":"EditView","method":"query","modules":["fyn_QR_CODE_PALLETTE"],"group":"or","field_list":["name","id"],"populate_list":["fyn_qr_code_pallette_fyn_qr_code_boxes_1_name","fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida"],"required_list":["parent_id"],"conditions":[{"name":"name","op":"like_custom","end":"%","value":""}],"order":"name","limit":"30","no_match_text":"No Match"};sqs_objects['EditView_assigned_user_name']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"No Match"};</script>{/literal}

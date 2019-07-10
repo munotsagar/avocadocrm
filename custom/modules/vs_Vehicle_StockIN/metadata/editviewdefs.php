@@ -55,11 +55,6 @@ array (
         ),
         2 => 
         array (
-          0 => 
-          array (
-            'name' => 'aos_products_vs_vehicle_stockin_1_name',
-            'label' => 'LBL_AOS_PRODUCTS_VS_VEHICLE_STOCKIN_1_FROM_AOS_PRODUCTS_TITLE',
-          ),
         ),
         3 => 
         array (

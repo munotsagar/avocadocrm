@@ -57,11 +57,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_FROMWHERE',
           ),
-          1 => 
-          array (
-            'name' => 'aos_products_vs_vehicle_stockin_1_name',
-            'label' => 'LBL_AOS_PRODUCTS_VS_VEHICLE_STOCKIN_1_FROM_AOS_PRODUCTS_TITLE',
-          ),
         ),
         2 => 
         array (
@@ -84,7 +79,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_TO_VEHICLE',
           ),
-          1 => '',
         ),
         4 => 
         array (

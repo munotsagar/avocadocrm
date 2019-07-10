@@ -136,6 +136,12 @@
         $prod_invoice = new AOS_Products_Quotes();
         $prod_invoice->populateFromRow($row);
         $prod_invoice->save();
+        unset($productBean);
+        $productBean = BeanFactory::getBean('AOS_Products', $row['product_id']);
+        $productBean->balance_c = $productBean->balance_c-$row['product_qty'];
+        $productBean->invoice_stock_c = $productBean->invoice_stock_c+$row['product_qty'];
+        $productBean->save();
+
     }
     ob_clean();
     header('Location: index.php?module=AOS_Invoices&action=EditView&record='.$invoice->id);

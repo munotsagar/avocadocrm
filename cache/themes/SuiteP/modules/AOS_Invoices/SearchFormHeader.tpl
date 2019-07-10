@@ -87,4 +87,4 @@
                  class="edit view search {$tabData.name}">{if $tabData.displayDiv}{else}{$return_txt}{/if}</div>
         {/foreach}
         <div id='{$module}saved_viewsSearchForm'
-             style='display: none;'>{$saved_views_txt}</div>
+             style='display: none;'>{$saved_views_txt}</div>

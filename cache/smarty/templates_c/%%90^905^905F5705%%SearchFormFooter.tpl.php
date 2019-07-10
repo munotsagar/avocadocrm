@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-04-04 14:24:45
+<?php /* Smarty version 2.6.31, created on 2019-07-09 15:46:36
          compiled from cache/themes/SuiteP/modules/fyn_Stock_In/SearchFormFooter.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getimagepath', 'cache/themes/SuiteP/modules/fyn_Stock_In/SearchFormFooter.tpl', 11, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/fyn_Stock_In/SearchFormFooter.tpl', 12, false),)), $this); ?>
@@ -41,3 +41,4 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
 <?php endif; ?>
+

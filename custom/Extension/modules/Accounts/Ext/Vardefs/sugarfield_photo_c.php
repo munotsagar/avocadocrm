@@ -1,5 +1,5 @@
 <?php
- // created: 2018-11-19 13:24:56
+ // created: 2019-06-21 17:06:47
 $dictionary['Account']['fields']['photo_c']['inline_edit']='1';
 $dictionary['Account']['fields']['photo_c']['labelValue']='Photo';
 

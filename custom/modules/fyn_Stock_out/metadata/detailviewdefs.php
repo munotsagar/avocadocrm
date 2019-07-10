@@ -71,11 +71,6 @@ array (
             'name' => 'quantity',
             'label' => 'LBL_QUANTITY',
           ),
-          1 => 
-          array (
-            'name' => 'aos_products_fyn_stock_out_1_name',
-            'label' => 'LBL_AOS_PRODUCTS_FYN_STOCK_OUT_1_FROM_AOS_PRODUCTS_TITLE',
-          ),
         ),
         3 => 
         array (

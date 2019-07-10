@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-02-08 15:28:12
+<?php /* Smarty version 2.6.31, created on 2019-07-09 07:40:27
          compiled from themes/SuiteP/tpls/login.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_translate', 'themes/SuiteP/tpls/login.tpl', 42, false),)), $this); ?>
@@ -137,14 +137,15 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_trans
     </div>
     </div>
     
-    <div class="p_login_bottom">
+    <!--<div class="p_login_bottom">
 
     		<a id="admin_options">&copy; Supercharged by SuiteCRM</a>
             <a id="powered_by">&copy; Powered By SugarCRM</a>
     	
-	</div>
+	</div>-->
     
 </div>
 <!-- End login container -->
 
 
+

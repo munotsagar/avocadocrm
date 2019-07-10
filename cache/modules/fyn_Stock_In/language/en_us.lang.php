@@ -1,8 +1,12 @@
 <?php
-// created: 2019-01-30 20:24:42
+// created: 2019-07-10 15:24:26
 $mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+  'LBL_SECURITYGROUPS' => 'Security Groups',
+  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date Created',
+  'LBL_DATE_ENTERED' => 'Truck Info',
   'LBL_DATE_MODIFIED' => 'Date Modified',
   'LBL_MODIFIED' => 'Modified By',
   'LBL_MODIFIED_NAME' => 'Modified By Name',
@@ -21,10 +25,6 @@ $mod_strings = array (
   'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
   'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
   'LBL_OPT_IN_CONFIRMED' => 'Opted in',
-  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-  'LBL_SECURITYGROUPS' => 'Security Groups',
-  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
   'LBL_LIST_FORM_TITLE' => 'Stock In List',
   'LBL_MODULE_NAME' => 'Stock In',
   'LBL_MODULE_TITLE' => 'Stock In',
@@ -42,8 +42,12 @@ $mod_strings = array (
   'LBL_FROM1' => 'From',
   'LBL_SELECTVEHICLE_FYN_VEHICLE_ID' => 'Select Vehicle (related  ID)',
   'LBL_SELECTVEHICLE' => 'Select Vehicle',
-  'LBL_AOS_PRODUCTS_FYN_STOCK_IN_1_FROM_AOS_PRODUCTS_TITLE' => 'Products',
+  'LBL_VENDER' => 'Vender',
+  'LBL_EDITVIEW_PANEL1' => 'undefined 1',
+  'LBL_STATUS' => 'Status',
+  'LBL_FYN_STOCK_IN_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_BOXES_TITLE' => 'QR Code Boxes',
   'LBL_FYN_QR_CODE_BOXES_FYN_STOCK_IN_1_FROM_FYN_QR_CODE_BOXES_TITLE' => 'QR Code Boxes',
+  'LBL_AOS_PRODUCTS_FYN_STOCK_IN_1_FROM_AOS_PRODUCTS_TITLE' => 'Products',
   'LBL_FYN_VEHICLES_FYN_STOCK_IN_1_FROM_FYN_VEHICLES_TITLE' => 'Vehicles',
   'LBL_FYN_QR_CODE_PALLETTE_FYN_STOCK_IN_1_FROM_FYN_QR_CODE_PALLETTE_TITLE' => 'QR Code Pallette',
 );

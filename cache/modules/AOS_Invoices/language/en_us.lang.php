@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-30 20:24:42
+// created: 2019-07-10 15:24:24
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -145,7 +145,7 @@ $mod_strings = array (
   'LBL_REMOVE_PRODUCT_LINE' => 'Remove',
   'LBL_PRINT_AS_PDF' => 'Print as PDF',
   'LBL_EMAIL_INVOICE' => 'Email Invoice',
-  'LBL_LIST_NUM' => 'Num',
+  'LBL_LIST_NUM' => 'Inv Num',
   'LBL_PDF_NAME' => 'Invoice',
   'LBL_EMAIL_NAME' => 'Invoice for',
   'LBL_NO_TEMPLATE' => 'ERROR\\nNo templates found. If you have not created an Invoice template, go to the PDF templates module and create one',
@@ -198,6 +198,12 @@ $mod_strings = array (
   'LBL_ITEM14' => 'Item14',
   'LBL_ITEM15' => 'Item15',
   'LBL_DUE_DATES' => 'Due Date',
+  'LBL_DAYS_OVERDUE' => 'Days Overdue',
+  'LBL_DETAILVIEW_PANEL1' => 'New Panel 1',
   'LBL_FYN_LOCATIONS_AOS_INVOICES_1_FROM_FYN_LOCATIONS_TITLE' => 'Areas',
   'LBL_FYN_ROUTES_AOS_INVOICES_1_FROM_FYN_ROUTES_TITLE' => 'Routes',
+  'LBL_BILLING_ACCOUNT_ACCOUNT_ID' => 'Account Name (related Customer ID)',
+  'LBL_FLAT_RATE_COMMISSION' => 'Flat Rate Commission',
+  'LBL_PERCENTAGE_COMMISSION' => 'Percentage Commission',
+  'LBL_TOTAL_COMMISSION_AMOUNT' => 'Total Commission Amount',
 );

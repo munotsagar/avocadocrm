@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Routes',
-  'published_date' => '2018-11-28 19:01:51',
+  'published_date' => '2019-07-09 04:12:54',
   'type' => 'module',
-  'version' => 1543431711,
+  'version' => 1562645574,
   'remove_tables' => 'prompt',
 );
 

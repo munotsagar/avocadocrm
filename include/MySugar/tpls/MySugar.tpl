@@ -91,7 +91,7 @@
                     </li>
                     {else} <li id="pageNum_{$tabNum}">
                         <a id="pageNum_{$tabNum}_anchor" style='cursor: pointer;' {if !$lock_homepage}ondblclick="renameTab({$tabNum})"{/if} onClick=retrievePage({$tabNum});>
-                            <span id="name_{$tabNum}">{$tab.pageTitle}</span>
+                            <span id="name_{$tabNum}">dddd</span>
                         </a>
                         {if !$lock_homepage}<a id="removeTab_anchor"  onClick="removeDashboardForm({$tabNum});"><span class="suitepicon suitepicon-action-clear"></span></a>{/if}
 

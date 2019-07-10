@@ -2,15 +2,9 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2018-12-01 09:50:39
-$dictionary['fyn_locations']['fields']['state_c']['inline_edit']='1';
-$dictionary['fyn_locations']['fields']['state_c']['labelValue']='State';
-
- 
-
- // created: 2018-12-01 09:45:54
-$dictionary['fyn_locations']['fields']['city_c']['inline_edit']='1';
-$dictionary['fyn_locations']['fields']['city_c']['labelValue']='City';
+ // created: 2018-12-01 09:50:03
+$dictionary['fyn_locations']['fields']['location_c']['inline_edit']='1';
+$dictionary['fyn_locations']['fields']['location_c']['labelValue']='Area';
 
  
 
@@ -27,18 +21,15 @@ $dictionary["fyn_locations"]["fields"]["fyn_locations_aos_invoices_1"] = array (
 );
 
 
- // created: 2018-12-01 09:50:03
-$dictionary['fyn_locations']['fields']['location_c']['inline_edit']='1';
-$dictionary['fyn_locations']['fields']['location_c']['labelValue']='Area';
+ // created: 2018-12-01 09:50:39
+$dictionary['fyn_locations']['fields']['state_c']['inline_edit']='1';
+$dictionary['fyn_locations']['fields']['state_c']['labelValue']='State';
 
  
 
- // created: 2018-12-01 09:46:00
-$dictionary['fyn_locations']['fields']['name']['inline_edit']=true;
-$dictionary['fyn_locations']['fields']['name']['duplicate_merge']='disabled';
-$dictionary['fyn_locations']['fields']['name']['duplicate_merge_dom_value']='0';
-$dictionary['fyn_locations']['fields']['name']['merge_filter']='disabled';
-$dictionary['fyn_locations']['fields']['name']['unified_search']=false;
+ // created: 2018-12-01 09:45:54
+$dictionary['fyn_locations']['fields']['city_c']['inline_edit']='1';
+$dictionary['fyn_locations']['fields']['city_c']['labelValue']='City';
 
  
 
@@ -75,6 +66,15 @@ $dictionary["fyn_locations"]["fields"]["fyn_vlzs_fyn_locations_1fyn_vlzs_ida"] =
   'vname' => 'LBL_FYN_VLZS_FYN_LOCATIONS_1_FROM_FYN_LOCATIONS_TITLE',
 );
 
+
+ // created: 2018-12-01 09:46:00
+$dictionary['fyn_locations']['fields']['name']['inline_edit']=true;
+$dictionary['fyn_locations']['fields']['name']['duplicate_merge']='disabled';
+$dictionary['fyn_locations']['fields']['name']['duplicate_merge_dom_value']='0';
+$dictionary['fyn_locations']['fields']['name']['merge_filter']='disabled';
+$dictionary['fyn_locations']['fields']['name']['unified_search']=false;
+
+ 
 
  // created: 2018-12-01 09:46:57
 $dictionary['fyn_locations']['fields']['country_c']['inline_edit']='1';

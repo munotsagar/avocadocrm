@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-30 20:24:42
+// created: 2019-07-10 15:24:24
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -115,10 +115,11 @@ $mod_strings = array (
   'LBL_LIST_EXT_DOCUMENT_NAME' => 'File Name',
   'ERR_INVALID_EXTERNAL_API_ACCESS' => 'The user attempted to access an invalid external API ({0})',
   'ERR_INVALID_EXTERNAL_API_LOGIN' => 'The login check failed for external API ({0})',
-  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Customers',
+  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
   'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunities',
   'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
   'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
   'LBL_AOS_CONTRACTS' => 'Contracts',
+  'LBL_ACCOUNTS_DOCUMENTS_1_FROM_ACCOUNTS_TITLE' => 'Customers',
 );

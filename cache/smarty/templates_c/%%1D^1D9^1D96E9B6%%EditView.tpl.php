@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-01-30 20:25:30
+<?php /* Smarty version 2.6.31, created on 2019-07-10 05:23:10
          compiled from cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/EditView.tpl', 47, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/EditView.tpl', 102, false),array('function', 'sugar_include', 'cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/EditView.tpl', 63, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/EditView.tpl', 84, false),array('function', 'counter', 'cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/EditView.tpl', 108, false),array('block', 'minify', 'cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/EditView.tpl', 100, false),)), $this); ?>
@@ -151,10 +151,10 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'c
 
 
 
-<div class="col-xs-12 col-sm-6 edit-view-row-item">
+<div class="col-xs-12 col-sm-12 edit-view-row-item">
 
 
-<div class="col-xs-12 col-sm-4 label" data-label="LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE">
+<div class="col-xs-12 col-sm-2 label" data-label="LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE">
 
 <?php $this->_tag_stack[] = array('minify', array()); $_block_repeat=true;smarty_block_minify($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
 <?php ob_start(); ?><?php echo smarty_function_sugar_translate(array('label' => 'LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE','module' => 'fyn_QR_CODE_BOXES'), $this);?>
@@ -165,7 +165,7 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'c
 <?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_minify($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="relate" field="aos_products_fyn_qr_code_boxes_1_name"  >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="relate" field="aos_products_fyn_qr_code_boxes_1_name" colspan='3' >
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount','print' => false), $this);?>
 
 
@@ -213,16 +213,11 @@ _<?php echo $this->_tpl_vars['fields']['aos_products_fyn_qr_code_boxes_1_name'][
 ']) != 'undefined'",
 		enableQS
 );
-</script>
+</script>
 </div>
 
 <!-- [/hide] -->
 </div>
-
-
-<div class="col-xs-12 col-sm-6 edit-view-row-item">
-</div>
-<div class="clear"></div>
 <div class="clear"></div>
 
 
@@ -289,7 +284,7 @@ _<?php echo $this->_tpl_vars['fields']['fyn_qr_code_pallette_fyn_qr_code_boxes_1
 ']) != 'undefined'",
 		enableQS
 );
-</script>
+</script>
 </div>
 
 <!-- [/hide] -->
@@ -397,13 +392,13 @@ _<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
 ']) != 'undefined'",
 		enableQS
 );
-</script>
+</script>
 </div>
 
 <!-- [/hide] -->
 </div>
 <div class="clear"></div>
-</div>                    </div>
+</div>                    </div>
 </div>
 </div>
 </div>
@@ -576,25 +571,28 @@ addToValidate(\'EditView\', \'qr_image\', \'image\', false,\''; ?>
 addToValidate(\'EditView\', \'truck_info\', \'varchar\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_TRUCK_INFO','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
 <?php echo '\' );
-addToValidate(\'EditView\', \'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name\', \'relate\', false,\''; ?>
-<?php echo smarty_function_sugar_translate(array('label' => 'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
+addToValidate(\'EditView\', \'fyn_stock_in_fyn_qr_code_boxes_1_name\', \'relate\', false,\''; ?>
+<?php echo smarty_function_sugar_translate(array('label' => 'LBL_FYN_STOCK_IN_FYN_QR_CODE_BOXES_1_FROM_FYN_STOCK_IN_TITLE','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
 <?php echo '\' );
 addToValidate(\'EditView\', \'aos_products_fyn_qr_code_boxes_1_name\', \'relate\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
+<?php echo '\' );
+addToValidate(\'EditView\', \'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name\', \'relate\', false,\''; ?>
+<?php echo smarty_function_sugar_translate(array('label' => 'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
 <?php echo '\' );
 addToValidateBinaryDependency(\'EditView\', \'assigned_user_name\', \'alpha\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'ERR_SQS_NO_MATCH_FIELD','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
 <?php echo ': '; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_ASSIGNED_TO','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
 <?php echo '\', \'assigned_user_id\' );
-addToValidateBinaryDependency(\'EditView\', \'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name\', \'alpha\', false,\''; ?>
-<?php echo smarty_function_sugar_translate(array('label' => 'ERR_SQS_NO_MATCH_FIELD','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
-<?php echo ': '; ?>
-<?php echo smarty_function_sugar_translate(array('label' => 'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
-<?php echo '\', \'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida\' );
 addToValidateBinaryDependency(\'EditView\', \'aos_products_fyn_qr_code_boxes_1_name\', \'alpha\', false,\''; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'ERR_SQS_NO_MATCH_FIELD','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
 <?php echo ': '; ?>
 <?php echo smarty_function_sugar_translate(array('label' => 'LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
 <?php echo '\', \'aos_products_fyn_qr_code_boxes_1aos_products_ida\' );
+addToValidateBinaryDependency(\'EditView\', \'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name\', \'alpha\', false,\''; ?>
+<?php echo smarty_function_sugar_translate(array('label' => 'ERR_SQS_NO_MATCH_FIELD','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
+<?php echo ': '; ?>
+<?php echo smarty_function_sugar_translate(array('label' => 'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE','module' => 'fyn_QR_CODE_BOXES','for_js' => true), $this);?>
+<?php echo '\', \'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida\' );
 </script><script language="javascript">if(typeof sqs_objects == \'undefined\'){var sqs_objects = new Array;}sqs_objects[\'EditView_aos_products_fyn_qr_code_boxes_1_name\']={"form":"EditView","method":"query","modules":["AOS_Products"],"group":"or","field_list":["name","id"],"populate_list":["aos_products_fyn_qr_code_boxes_1_name","aos_products_fyn_qr_code_boxes_1aos_products_ida"],"required_list":["parent_id"],"conditions":[{"name":"name","op":"like_custom","end":"%","value":""}],"order":"name","limit":"30","no_match_text":"No Match"};sqs_objects[\'EditView_fyn_qr_code_pallette_fyn_qr_code_boxes_1_name\']={"form":"EditView","method":"query","modules":["fyn_QR_CODE_PALLETTE"],"group":"or","field_list":["name","id"],"populate_list":["fyn_qr_code_pallette_fyn_qr_code_boxes_1_name","fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida"],"required_list":["parent_id"],"conditions":[{"name":"name","op":"like_custom","end":"%","value":""}],"order":"name","limit":"30","no_match_text":"No Match"};sqs_objects[\'EditView_assigned_user_name\']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"No Match"};</script>'; ?>

@@ -1,5 +1,5 @@
 <?php
- // created: 2019-01-02 22:40:41
+ // created: 2019-06-21 17:06:46
 $dictionary['Account']['fields']['card_number3_c']['inline_edit']='1';
 $dictionary['Account']['fields']['card_number3_c']['labelValue']='Card Number';
 

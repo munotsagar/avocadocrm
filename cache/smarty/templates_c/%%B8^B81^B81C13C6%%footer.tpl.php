@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-01-30 20:25:30
+<?php /* Smarty version 2.6.31, created on 2019-07-10 05:23:10
          compiled from themes/SuiteP/include/EditView/footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'themes/SuiteP/include/EditView/footer.tpl', 54, false),)), $this); ?>
@@ -74,4 +74,4 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 <?php endif; ?>
 <script>SUGAR.util.doWhen("document.getElementById('EditView') != null",
         function(){ldelim}SUGAR.util.buildAccessKeyLabels();{rdelim});
-</script>
+</script>

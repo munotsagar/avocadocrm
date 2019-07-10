@@ -78,6 +78,7 @@ $entry_point_registry = array(
     'responseEntryPoint' => array('file' => 'modules/FP_events/responseEntryPoint.php', 'auth' => false),
     'formLetter' => array('file' => 'modules/AOS_PDF_Templates/formLetterPdf.php' , 'auth' => true),
     'generatePdf' => array('file' => 'modules/AOS_PDF_Templates/generatePdf.php' , 'auth' => true),
+    'generatePdf_For_Route' => array('file' => 'modules/AOS_PDF_Templates/generatePdf_For_Route.php' , 'auth' => true),
     'Reschedule' => array('file' => 'modules/Calls_Reschedule/Reschedule_popup.php' , 'auth' => true),
     'Reschedule2' => array('file' => 'modules/Calls/Reschedule.php' , 'auth' => true),
     'social' => array('file' => 'include/social/get_data.php' , 'auth' => true),
@@ -95,4 +96,6 @@ $entry_point_registry = array(
     'surveySubmit' => array('file' => 'modules/Surveys/Entry/SurveySubmit.php', 'auth' => false),
     'surveyThanks' => array('file' => 'modules/Surveys/Entry/Thanks.php', 'auth' => false),
     'sendConfirmOptInEmail' => array('file' => 'include/entryPointConfirmOptInConnector.php', 'auth' => true),
+    'generateVansForProducts' => array('file' => 'custom/modules/AOS_Products/generateVans.php', 'auth' => true),
+    'transferInventory' => array('file' => 'custom/modules/AOS_Products/transferInventory.php', 'auth' => true),
 );

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-02-12 12:13:29
+<?php /* Smarty version 2.6.31, created on 2019-07-09 07:39:23
          compiled from include/SugarFields/Fields/Relate/SearchView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugarvar', 'include/SugarFields/Fields/Relate/SearchView.tpl', 42, false),)), $this); ?>
@@ -78,4 +78,4 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugarvar', 
 <input type="hidden" name="<?php echo smarty_function_sugarvar(array('key' => 'name'), $this);?>
 _allow_new_value" id="<?php echo smarty_function_sugarvar(array('key' => 'name'), $this);?>
 _allow_new_value" value="true">
-<?php endif; ?>
+<?php endif; ?>

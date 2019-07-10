@@ -11,5 +11,11 @@ $hook_array['after_save'] = Array();
 //$hook_array['before_save'][] = Array(1, 'test', 'custom/modules/fyn_routes/test.php','Test', 'testing'); 
 //$hook_array['before_save'][] = Array(4, 'auto', 'custom/modules/fyn_routes/auto.php','auto', 'relate');
 $hook_array['before_save'][] = Array(1, 'test', 'custom/modules/fyn_routes/getorders.php','Test', 'testing'); 
-
+$hook_array['after_relationship_add'][] = Array(
+    1,
+    'addRelationship',
+    'custom/modules/fyn_routes/AfterinvoiceAdd.php', // file
+    'AfterinvoiceAdd', // class
+    'updateVansStock' // function
+);
 ?>

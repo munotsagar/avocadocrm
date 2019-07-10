@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-01-30 20:24:55
+<?php /* Smarty version 2.6.31, created on 2019-07-10 05:23:51
          compiled from cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/SearchFormHeader.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/themes/SuiteP/modules/fyn_QR_CODE_BOXES/SearchFormHeader.tpl', 4, false),)), $this); ?>
@@ -114,4 +114,4 @@ _searchSearchForm' style='<?php echo $this->_tpl_vars['tabData']['displayDiv']; 
         <div id='<?php echo $this->_tpl_vars['module']; ?>
 saved_viewsSearchForm'
              style='display: none;'><?php echo $this->_tpl_vars['saved_views_txt']; ?>
-</div>
+</div>

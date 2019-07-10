@@ -77,4 +77,6 @@ class AOS_InvoicesController extends SugarController
             $this->bean->billing_contact = $row['first_name'].' '.$row['last_name'];
         }
     }
+
+    
 }

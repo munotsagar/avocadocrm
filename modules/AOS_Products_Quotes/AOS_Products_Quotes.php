@@ -64,12 +64,15 @@ class AOS_Products_Quotes extends AOS_Products_Quotes_sugar
 
     public function save_lines($post_data, $parent, $groups = array(), $key = '')
     {
+        
         $line_count = isset($post_data[$key . 'name']) ? count($post_data[$key . 'name']) : 0;
         $j = 0;
+        $productFlag = "no";
         for ($i = 0; $i < $line_count; ++$i) {
             if (isset($post_data[$key . 'deleted'][$i]) && $post_data[$key . 'deleted'][$i] == 1) {
                 $this->mark_deleted($post_data[$key . 'id'][$i]);
             } else {
+                
                 if (!isset($post_data[$key . 'id'][$i])) {
                     LoggerManager::getLogger()->warn('Post date has no key id');
                     $postDataKeyIdI = null;
@@ -79,7 +82,9 @@ class AOS_Products_Quotes extends AOS_Products_Quotes_sugar
 
                 $product_quote = BeanFactory::getBean('AOS_Products_Quotes', $postDataKeyIdI);
                 if (!$product_quote) {
+                    echo "I am Here....";exit;
                     $product_quote = BeanFactory::newBean('AOS_Products_Quotes');
+                    $productFlag = "yes";
                 }
                 foreach ($this->field_defs as $field_def) {
                     $field_name = $field_def['name'];
@@ -116,10 +121,34 @@ class AOS_Products_Quotes extends AOS_Products_Quotes_sugar
                     $product_quote->currency_id = $parentCurrencyId;
                     $product_quote->parent_type = $parent->object_name;
                     $product_quote->save();
+                    
+                    if($product_quote->parent_type == "AOS_Invoices") {
+                        $this->updateProductQty($product_quote->id);
+                    }
                     $_POST[$key . 'id'][$i] = $product_quote->id;
                 }
             }
         }
+    }
+
+    public function updateProductQty($id)
+    {
+        global $db;
+        $sqlQuote = "select * from aos_products_quotes where id = '".$id."'";
+        $resultQuote = $db->query($sqlQuote);
+        $rowQuote = $db->fetchByAssoc($resultQuote);
+
+        $sqlProduct = "select * from aos_products_cstm where id_c = '".$rowQuote['product_id']."'";
+        $resultProduct = $db->query($sqlProduct);
+        $rowProduct = $db->fetchByAssoc($resultProduct);
+
+        $productQty = $rowQuote['product_qty'];
+        $newProdQty = $productQty;
+        //echo $newProdQty;//exit;
+        $balance = (int)$rowProduct['balance_c'] - (int)$newProdQty;
+        $updateProductQty = "update aos_products_cstm set balance_c = '".$balance."' where id_c = '".$rowQuote['product_id']."'";
+        $db->query($updateProductQty);
+        
     }
 
     public function save($check_notify = false)

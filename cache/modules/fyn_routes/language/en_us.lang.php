@@ -1,13 +1,13 @@
 <?php
-// created: 2019-01-30 20:24:42
+// created: 2019-07-10 15:24:25
 $mod_strings = array (
   'LBL_ID' => 'ID',
-  'LBL_DATE_ENTERED' => 'Date Created',
+  'LBL_DATE_ENTERED' => 'Routing Date',
   'LBL_DATE_MODIFIED' => 'Date Modified',
   'LBL_MODIFIED' => 'Modified By',
   'LBL_MODIFIED_NAME' => 'Modified By Name',
   'LBL_CREATED' => 'Created By',
-  'LBL_DESCRIPTION' => 'Description',
+  'LBL_DESCRIPTION' => 'Routing Description',
   'LBL_DELETED' => 'Deleted',
   'LBL_NAME' => 'Name',
   'LBL_CREATED_USER' => 'Created by User',

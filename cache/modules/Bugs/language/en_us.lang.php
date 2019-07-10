@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-30 20:24:41
+// created: 2019-07-10 15:24:24
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created:',
@@ -72,11 +72,11 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
-  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Customers',
+  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
   'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
   'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
   'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
   'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
   'LBL_BUG_INFORMATION' => 'OVERVIEW',
-  'LBL_ACCOUNTS' => 'Customers',
+  'LBL_ACCOUNTS' => 'Accounts',
 );

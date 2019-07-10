@@ -34,10 +34,10 @@ class AOS_InvoicesViewEdit extends ViewEdit
         <script>
         $( document ).ready(function(){
         $('#sales_commission_user_c').on('blur', function(){
-            populatecommissionamount();
+            //populatecommissionamount();
         });
          $('#btn_sales_commission_user_c').on('blur', function(){
-            populatecommissionamount();
+            //populatecommissionamount();
         });
 
         function populatecommissionamount(){

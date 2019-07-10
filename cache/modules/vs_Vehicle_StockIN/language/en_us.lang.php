@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-30 20:24:42
+// created: 2019-07-10 15:24:26
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -44,5 +44,4 @@ $mod_strings = array (
   'LBL_TO_VEHICLE_FYN_VEHICLE_ID' => 'To Vehicle (related  ID)',
   'LBL_TO_VEHICLE' => 'From Vehicle',
   'LBL_FYN_VEHICLE_VS_VEHICLE_STOCKIN_1_FROM_FYN_VEHICLE_TITLE' => 'Vehicles',
-  'LBL_AOS_PRODUCTS_VS_VEHICLE_STOCKIN_1_FROM_AOS_PRODUCTS_TITLE' => 'Products',
 );

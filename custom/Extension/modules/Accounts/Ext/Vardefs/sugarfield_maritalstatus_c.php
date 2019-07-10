@@ -1,5 +1,5 @@
 <?php
- // created: 2018-11-19 13:08:38
+ // created: 2019-06-21 17:06:46
 $dictionary['Account']['fields']['maritalstatus_c']['inline_edit']='1';
 $dictionary['Account']['fields']['maritalstatus_c']['labelValue']='Marital Status';
 

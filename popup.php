@@ -6,8 +6,7 @@ error_reporting(E_ERROR);
 ini_set('display_errors', 1);
 include_once('include/entryPoint.php');
 require_once("include/SugarPHPMailer.php");
-require_once("modules/Administration/Administration.php"); 
-
+require_once("modules/Administration/Administration.php");
 ?>
 
 <!DOCTYPE html>
@@ -42,17 +41,6 @@ require_once("modules/Administration/Administration.php");
       width:100%;
       padding:3%;
       }
-
-
-    
-
-
-
-
-
-
-
-
       #right-panel {
         font-family: 'Roboto','sans-serif';
         line-height: 30px;
@@ -98,10 +86,7 @@ require_once("modules/Administration/Administration.php");
         /*padding: 10px;*/
         /*overflow: scroll;*/
       }
-    </style>
-
-
-    
+    </style>    
   </head>
   <body>
         <button id="printbtn" onclick="document.getElementById('printbtn').style.display='none';window.print();">Print this page</button>
@@ -110,6 +95,9 @@ require_once("modules/Administration/Administration.php");
             <?php
             $routebeanid=$_REQUEST['beanid'];
             $count=$_REQUEST['count'];
+            $invoiceIds = $_REQUEST['selectedInvoiceIds'];
+            $invoiceIdsData = explode(",",$invoiceIds);
+            
              //echo "khurram<pre>";print_r($count);exit;
             $routebean = BeanFactory::getBean('fyn_routes',$routebeanid);
             $orders = $routebean->get_linked_beans('fyn_routes_aos_invoices_1','fyn_routes');
@@ -161,6 +149,9 @@ require_once("modules/Administration/Administration.php");
           <?php
             foreach ($orders as $order) 
             {
+              if(in_array($order->id, $invoiceIdsData))
+              {               
+             
               ?>
               <tr>
               <?php
@@ -188,6 +179,7 @@ require_once("modules/Administration/Administration.php");
               <?php
               $i++;
             }
+          }
           ?>
         </table>
       </div>
@@ -195,43 +187,6 @@ require_once("modules/Administration/Administration.php");
       <div class="segment" id="directions-panel"></div>
       <!-- </div> -->
 
-
-    <!--div id="right-panel">
-    <div>
-    <b>Start:</b>
-    <select id="start">
-      <option value="Bangalore, KA">Bangalore, KA</option>
-      <option value="#1, 9th Main Road, Jagajeevanram Nagar, Bengaluru, Karnataka 560026">JJR NAGAR</option>
-      <option value="New York, NY">New York, NY</option>
-      <option value="Miami, FL">Miami, FL</option>
-    </select>
-    <br>
-    <b>Waypoints:</b> <br>
-    <i>(Ctrl+Click or Cmd+Click for multiple selection)</i> <br>
-    <select multiple id="waypoints">
-      <option value="Jayanagar, Bangalore, KA">Kengeri, KA</option>
-      <option value="Chamrajpet, Bangalore" selected>Toronto, ONT</option>
-      <option value="chicago, il" selected>Chicago</option>
-      <option value="winnipeg, mb" selected>Winnipeg</option>
-      <option value="fargo, nd" selected>Fargo</option>
-      <option value="calgary, ab" selected>Calgary</option>
-      <option value="spokane, wa" selected>Spokane</option>
-    </select>
-    <br>
-    <b>End:</b>
-    <select id="end">
-      <option value="City Railway Station, Gubbi Thotadappa Rd, Subhash Nagar, Sevashrama, Bengaluru, Karnataka 560023">Majestic Railway Station</option>
-      <option value="Chennai, TN">Chennai, TN</option>
-      <option value="Vancouver, BC">Vancouver, BC</option>
-      <option value="Seattle, WA">Seattle, WA</option>
-      <option value="San Francisco, CA">San Francisco, CA</option>
-      <option value="Los Angeles, CA">Los Angeles, CA</option>
-    </select>
-    <br>
-      <input type="submit" id="submit">
-    </div>
-    <div id="directions-panel"></div>
-    </div-->
     <input type="submit" id="submit" style="display:none;">
     <script>
 
@@ -279,11 +234,14 @@ require_once("modules/Administration/Administration.php");
         <?php
         foreach ($orders as $order) 
         {
+          if(in_array($order->id, $invoiceIdsData))
+              {  
           ?>
 
           waypts.push({location: "<?php echo $order->formatted_address_c; ?>", stopover: true});
 
           <?php
+              }
         }
         ?>
         // waypts.push({location: waypoint, stopover: true});
@@ -294,7 +252,7 @@ require_once("modules/Administration/Administration.php");
 
         directionsService.route({
           origin: '13236 Paxton St, Pacoima, CA 91331',//document.getElementById('start').value, //'Bangalore, KA',
-          destination:  '15236 Paxton St, Pacoima, CA 91331',//document.getElementById('end').value, //'Bangalore, KA',
+          destination:  '13236 Paxton St, Pacoima, CA 91331',//document.getElementById('end').value, //'Bangalore, KA',
           waypoints: waypts,
           optimizeWaypoints: true,
           travelMode: 'DRIVING'

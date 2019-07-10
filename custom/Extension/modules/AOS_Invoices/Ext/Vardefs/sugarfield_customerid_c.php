@@ -1,5 +1,5 @@
 <?php
- // created: 2018-12-04 21:06:18
+ // created: 2019-06-21 18:58:29
 $dictionary['AOS_Invoices']['fields']['customerid_c']['inline_edit']='1';
 $dictionary['AOS_Invoices']['fields']['customerid_c']['labelValue']='CustomerID';
 

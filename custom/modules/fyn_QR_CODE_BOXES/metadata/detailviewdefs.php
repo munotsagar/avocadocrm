@@ -90,10 +90,10 @@ array (
         ),
         4 => 
         array (
-          0 =>
+          0 => 
           array (
-          'name' => 'date_entered',
-          'label' => 'LBL_DATE_ENTERED',
+            'name' => 'date_entered',
+            'label' => 'LBL_DATE_ENTERED',
           ),
           1 => 'date_modified',
         ),

@@ -1,0 +1,375 @@
+28ad60fc-d84c-f691-ce52-5c08c071fe3dSELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '87fcd74c-9e8a-ff42-976c-5c2bda774fe9' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '175' where id_c = 'f0b6d4b9-ab4d-c0e2-f2d7-5c0820073436'
+
+
+update aos_products_cstm set balance_c = '175' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+update aos_products_cstm set balance_c = '120' where id_c = '1d3d68d6-e60c-c905-47e7-5c08202e552c'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'd29caeb6-cd62-ce6d-52c9-5c3f09b5bec6' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '101' where id_c = 'c97db8a4-bbec-01b5-aaf2-5c082150c141'
+
+
+update aos_products_cstm set balance_c = '101' where id_c = 'bb4e3153-fa88-47b1-c658-5c0a2a5a186c'
+
+
+update aos_products_cstm set balance_c = '101' where id_c = 'f3e8dd88-6e0d-23b7-e97e-5c0822397632'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '51ba8f2f-8a94-06a9-13d2-5c4b794b4984' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '115' where id_c = 'c97db8a4-bbec-01b5-aaf2-5c082150c141'
+
+
+update aos_products_cstm set balance_c = '135' where id_c = 'f0b6d4b9-ab4d-c0e2-f2d7-5c0820073436'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'f1a9f4f2-4613-4d90-e4e0-5c2b2dce9b53' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '105' where id_c = '5e63b212-a2a0-35b9-b7eb-5c0822d4d144'
+
+
+update aos_products_cstm set balance_c = '107' where id_c = '411c2f09-56e9-75ec-285b-5c0820b215ad'
+
+
+update aos_products_cstm set balance_c = '250' where id_c = 'f0b6d4b9-ab4d-c0e2-f2d7-5c0820073436'
+
+
+update aos_products_cstm set balance_c = '250' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+update aos_products_cstm set balance_c = '250' where id_c = '1a34343a-8374-2874-f7eb-5c082003a63c'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'd29caeb6-cd62-ce6d-52c9-5c3f09b5bec6' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '101' where id_c = 'c97db8a4-bbec-01b5-aaf2-5c082150c141'
+
+
+update aos_products_cstm set balance_c = '101' where id_c = 'bb4e3153-fa88-47b1-c658-5c0a2a5a186c'
+
+
+update aos_products_cstm set balance_c = '101' where id_c = 'f3e8dd88-6e0d-23b7-e97e-5c0822397632'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '8a399469-4e5c-27b2-97ab-5c3f47c8b578' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '101' where id_c = 'c97db8a4-bbec-01b5-aaf2-5c082150c141'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '2c2518d0-0115-8841-a00d-5c3f06d64346' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '101' where id_c = 'c97db8a4-bbec-01b5-aaf2-5c082150c141'
+
+
+update aos_products_cstm set balance_c = '101' where id_c = 'bb4e3153-fa88-47b1-c658-5c0a2a5a186c'
+
+
+update aos_products_cstm set balance_c = '101' where id_c = 'f3e8dd88-6e0d-23b7-e97e-5c0822397632'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '87fcd74c-9e8a-ff42-976c-5c2bda774fe9' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '175' where id_c = 'f0b6d4b9-ab4d-c0e2-f2d7-5c0820073436'
+
+
+update aos_products_cstm set balance_c = '175' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+update aos_products_cstm set balance_c = '120' where id_c = '1d3d68d6-e60c-c905-47e7-5c08202e552c'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '563251dc-e623-91c3-1232-5ce1438cbb0d' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '800', invoice_stock_c = '0' where id_c = 'c97db8a4-bbec-01b5-aaf2-5c082150c141'
+
+
+update aos_products_cstm set balance_c = '650', invoice_stock_c = '0' where id_c = '69ab86d3-eff4-2ef7-9c24-5c08228bdf0e'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '52e13961-43a2-a67e-5013-5ce153922dd6' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '100', invoice_stock_c = '0' where id_c = 'f0b6d4b9-ab4d-c0e2-f2d7-5c0820073436'
+
+
+update aos_products_cstm set balance_c = '2147483780', invoice_stock_c = '0' where id_c = '422a5493-cddc-2735-e948-5bfbbbf2bf46'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '87fcd74c-9e8a-ff42-976c-5c2bda774fe9' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '162', invoice_stock_c = '-75' where id_c = 'f0b6d4b9-ab4d-c0e2-f2d7-5c0820073436'
+
+
+update aos_products_cstm set balance_c = '175', invoice_stock_c = '-75' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+update aos_products_cstm set balance_c = '120', invoice_stock_c = '-20' where id_c = '1d3d68d6-e60c-c905-47e7-5c08202e552c'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '3d5bfb56-f3fa-eff3-b33b-5cb2bf29ec70' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '795', invoice_stock_c = '-15' where id_c = 'c97db8a4-bbec-01b5-aaf2-5c082150c141'
+
+
+update aos_products_cstm set balance_c = '102', invoice_stock_c = '2147483632' where id_c = 'f0b6d4b9-ab4d-c0e2-f2d7-5c0820073436'
+
+
+update aos_products_cstm set balance_c = '2147483529', invoice_stock_c = '-15' where id_c = '422a5493-cddc-2735-e948-5bfbbbf2bf46'
+
+
+update aos_products_cstm set balance_c = '115', invoice_stock_c = '-15' where id_c = '22c99a72-3182-786f-77ce-5c0822218da0'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '397ca5e4-6ff7-d910-daca-5c4a726014e5' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '112', invoice_stock_c = '-12' where id_c = '1d6fd7ac-dacb-bcb7-0fe8-5c06d2a9a527'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '47635767-f813-056b-75f3-5c3f0ba2a832' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '781', invoice_stock_c = '2147483646' where id_c = 'c97db8a4-bbec-01b5-aaf2-5c082150c141'
+
+
+update aos_products_cstm set balance_c = '100', invoice_stock_c = '0' where id_c = 'bb4e3153-fa88-47b1-c658-5c0a2a5a186c'
+
+
+update aos_products_cstm set balance_c = '101', invoice_stock_c = '-1' where id_c = 'f3e8dd88-6e0d-23b7-e97e-5c0822397632'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '2a0e86ef-f3d0-d1a7-7bd5-5ccdd49471d1' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '2a0e86ef-f3d0-d1a7-7bd5-5ccdd49471d1' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '28375787-c603-b00a-3e11-5cd51898cd07' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '107', invoice_stock_c = '2147483612' where id_c = 'f0b6d4b9-ab4d-c0e2-f2d7-5c0820073436'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '12df3854-d0da-bcd2-e369-5cd313112496' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '89', invoice_stock_c = '2147483610' where id_c = 'f0b6d4b9-ab4d-c0e2-f2d7-5c0820073436'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '5e5f2fc3-aa10-046d-b7b1-5ce1c7a307db' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '150', invoice_stock_c = '2147483646' where id_c = '422a5493-cddc-2735-e948-5bfbbbf2bf46'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '5e5f2fc3-aa10-046d-b7b1-5ce1c7a307db' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '150', invoice_stock_c = '2147483645' where id_c = '422a5493-cddc-2735-e948-5bfbbbf2bf46'
+
+
+update aos_products_cstm set balance_c = '95', invoice_stock_c = '-2' where id_c = 'd405a9de-3626-2095-d3ba-5c0aa728a6c8'
+
+
+update aos_products_cstm set balance_c = '101', invoice_stock_c = '-1' where id_c = 'c65999eb-f623-8be6-4c53-5c08af5a6a92'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '991c506a-7b98-c106-89df-5ce2122a602c' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '147', invoice_stock_c = '2147483645' where id_c = '1a34343a-8374-2874-f7eb-5c082003a63c'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'c3b6ee73-d520-70f4-88b4-5cf9193fbfcf' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '148', invoice_stock_c = '7' where id_c = '1d6fd7ac-dacb-bcb7-0fe8-5c06d2a9a527'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'c3b6ee73-d520-70f4-88b4-5cf9193fbfcf' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '148', invoice_stock_c = '5' where id_c = '1d6fd7ac-dacb-bcb7-0fe8-5c06d2a9a527'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'c3b6ee73-d520-70f4-88b4-5cf9193fbfcf' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '148', invoice_stock_c = '3' where id_c = '1d6fd7ac-dacb-bcb7-0fe8-5c06d2a9a527'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'c3b6ee73-d520-70f4-88b4-5cf9193fbfcf' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '148', invoice_stock_c = '1' where id_c = '1d6fd7ac-dacb-bcb7-0fe8-5c06d2a9a527'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '8c16a479-423a-5d6e-9104-5ce1c60357cb' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '148', invoice_stock_c = '-1' where id_c = '1d6fd7ac-dacb-bcb7-0fe8-5c06d2a9a527'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '991c506a-7b98-c106-89df-5ce2122a602c' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '147', invoice_stock_c = '2147483643' where id_c = '1a34343a-8374-2874-f7eb-5c082003a63c'
+
+
+update aos_products_cstm set balance_c = '147', invoice_stock_c = '2147483643' where id_c = '422a5493-cddc-2735-e948-5bfbbbf2bf46'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '8c16a479-423a-5d6e-9104-5ce1c60357cb' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '148', invoice_stock_c = '2147483645' where id_c = '1d6fd7ac-dacb-bcb7-0fe8-5c06d2a9a527'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '8c16a479-423a-5d6e-9104-5ce1c60357cb' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '148', invoice_stock_c = '2147483643' where id_c = '1d6fd7ac-dacb-bcb7-0fe8-5c06d2a9a527'
+
+
+update aos_products_cstm set balance_c = '100', invoice_stock_c = '2147483642' where id_c = 'c65999eb-f623-8be6-4c53-5c08af5a6a92'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '8c16a479-423a-5d6e-9104-5ce1c60357cb' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '150', invoice_stock_c = '9223372036854775795' where id_c = '1d6fd7ac-dacb-bcb7-0fe8-5c06d2a9a527'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '7657cd18-03f7-d7b0-1cd2-5d1e00b19c64' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '145', invoice_stock_c = '7' where id_c = '1a34343a-8374-2874-f7eb-5c082003a63c'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '31e0d758-ed71-48c3-f924-5d1ed2c96289' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '31e0d758-ed71-48c3-f924-5d1ed2c96289' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '95', invoice_stock_c = '-10' where id_c = 'c65999eb-f623-8be6-4c53-5c08af5a6a92'
+
+
+update aos_products_cstm set balance_c = '95', invoice_stock_c = '-5' where id_c = 'd405a9de-3626-2095-d3ba-5c0aa728a6c8'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '31e0d758-ed71-48c3-f924-5d1ed2c96289' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '92', invoice_stock_c = '9223372036854775797' where id_c = 'c65999eb-f623-8be6-4c53-5c08af5a6a92'
+
+
+update aos_products_cstm set balance_c = '95', invoice_stock_c = '9223372036854775802' where id_c = 'd405a9de-3626-2095-d3ba-5c0aa728a6c8'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '5e5f2fc3-aa10-046d-b7b1-5ce1c7a307db' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '150', invoice_stock_c = '9223372036854775803' where id_c = '422a5493-cddc-2735-e948-5bfbbbf2bf46'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '7657cd18-03f7-d7b0-1cd2-5d1e00b19c64' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '145', invoice_stock_c = '5' where id_c = '1a34343a-8374-2874-f7eb-5c082003a63c'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '31e0d758-ed71-48c3-f924-5d1ed2c96289' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '92', invoice_stock_c = '9223372036854775787' where id_c = 'c65999eb-f623-8be6-4c53-5c08af5a6a92'
+
+
+update aos_products_cstm set balance_c = '95', invoice_stock_c = '9223372036854775797' where id_c = 'd405a9de-3626-2095-d3ba-5c0aa728a6c8'
+
+
+update aos_products_cstm set balance_c = '152', invoice_stock_c = '-10' where id_c = 'c90a88cc-03fe-9fab-742a-5c0aa7242c68'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '5e5f2fc3-aa10-046d-b7b1-5ce1c7a307db' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '100', invoice_stock_c = '-1' where id_c = 'a4c3553c-1c24-3ff3-d132-5c0aa6c7527f'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '31e0d758-ed71-48c3-f924-5d1ed2c96289' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '92', invoice_stock_c = '9223372036854775777' where id_c = 'c65999eb-f623-8be6-4c53-5c08af5a6a92'
+
+
+update aos_products_cstm set balance_c = '95', invoice_stock_c = '9223372036854775792' where id_c = 'd405a9de-3626-2095-d3ba-5c0aa728a6c8'
+
+
+update aos_products_cstm set balance_c = '152', invoice_stock_c = '9223372036854775797' where id_c = 'c90a88cc-03fe-9fab-742a-5c0aa7242c68'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '31e0d758-ed71-48c3-f924-5d1ed2c96289' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '92', invoice_stock_c = '9223372036854775767' where id_c = 'c65999eb-f623-8be6-4c53-5c08af5a6a92'
+
+
+update aos_products_cstm set balance_c = '95', invoice_stock_c = '9223372036854775787' where id_c = 'd405a9de-3626-2095-d3ba-5c0aa728a6c8'
+
+
+update aos_products_cstm set balance_c = '152', invoice_stock_c = '9223372036854775777' where id_c = 'c90a88cc-03fe-9fab-742a-5c0aa7242c68'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '31e0d758-ed71-48c3-f924-5d1ed2c96289' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '92', invoice_stock_c = '9223372036854775757' where id_c = 'c65999eb-f623-8be6-4c53-5c08af5a6a92'
+
+
+update aos_products_cstm set balance_c = '95', invoice_stock_c = '9223372036854775782' where id_c = 'd405a9de-3626-2095-d3ba-5c0aa728a6c8'
+
+
+update aos_products_cstm set balance_c = '152', invoice_stock_c = '9223372036854775757' where id_c = 'c90a88cc-03fe-9fab-742a-5c0aa7242c68'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '31e0d758-ed71-48c3-f924-5d1ed2c96289' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '92', invoice_stock_c = '9223372036854775747' where id_c = 'c65999eb-f623-8be6-4c53-5c08af5a6a92'
+
+
+update aos_products_cstm set balance_c = '95', invoice_stock_c = '9223372036854775777' where id_c = 'd405a9de-3626-2095-d3ba-5c0aa728a6c8'
+
+
+update aos_products_cstm set balance_c = '152', invoice_stock_c = '9223372036854775737' where id_c = 'c90a88cc-03fe-9fab-742a-5c0aa7242c68'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '5e5f2fc3-aa10-046d-b7b1-5ce1c7a307db' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '100', invoice_stock_c = '9223372036854775806' where id_c = 'a4c3553c-1c24-3ff3-d132-5c0aa6c7527f'
+
+
+SELECT pg.id, CAST(pg.product_qty AS UNSIGNED) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg LEFT JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '7657cd18-03f7-d7b0-1cd2-5d1e00b19c64' AND pg.deleted = 0 ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set balance_c = '145', invoice_stock_c = '3' where id_c = '1a34343a-8374-2874-f7eb-5c082003a63c'
+
+

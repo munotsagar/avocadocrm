@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-01-30 20:24:42
+<?php /* Smarty version 2.6.31, created on 2019-07-09 07:38:44
          compiled from themes/SuiteP/tpls/footer.tpl */ ?>
 </div>
 </div>
@@ -25,12 +25,12 @@
                 <p><?php echo $this->_tpl_vars['COPYRIGHT']; ?>
 </p>
             </div>
-            <div id="copyrightbuttons" class="footer_left">
+            <!--<div id="copyrightbuttons" class="footer_left">
                 <a id="admin_options">&copy; <?php echo $this->_tpl_vars['APP']['LBL_SUITE_SUPERCHARGED']; ?>
 </a>
                 <a id="powered_by">&copy; <?php echo $this->_tpl_vars['APP']['LBL_SUITE_POWERED_BY']; ?>
 </a>
-            </div>
+            </div>-->
         </div>
     	<div class="footer_right">
     		
@@ -148,4 +148,4 @@
     </div><!-- /.modal-dialog -->
 </div>
 </body>
-</html>
+</html>

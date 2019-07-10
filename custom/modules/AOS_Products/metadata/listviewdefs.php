@@ -22,6 +22,13 @@ array (
     'label' => 'LBL_MAINCODE',
     'width' => '10%',
   ),
+  'PRODUCT_QR_CODE_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_PRODUCT_QR_CODE',
+    'width' => '10%',
+  ),
   'BALANCE_C' => 
   array (
     'type' => 'varchar',
@@ -35,6 +42,13 @@ array (
     'label' => 'LBL_PRICE',
     'currency_format' => true,
     'default' => true,
+  ),
+  'STOCKIN_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_STOCKIN',
+    'width' => '10%',
   ),
   'DATE_ENTERED' => 
   array (
@@ -56,11 +70,11 @@ array (
       0 => 'aos_product_category_id',
     ),
   ),
-  'STOCKIN_C' => 
+  'WAREHOUSE_BALANCE_STOCKS_C' => 
   array (
-    'type' => 'varchar',
+    'type' => 'int',
     'default' => false,
-    'label' => 'LBL_STOCKIN',
+    'label' => 'LBL_WAREHOUSE_BALANCE_STOCKS',
     'width' => '10%',
   ),
   'STOCKOUT_C' => 

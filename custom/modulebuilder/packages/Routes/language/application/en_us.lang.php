@@ -38,7 +38,7 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['fyn_Vehicle'] = 'Vehicles';
 $app_list_strings['moduleList']['fyn_routes'] = 'Routes';
 $app_list_strings['moduleList']['fyn_locations'] = 'Areas';
 $app_list_strings['moduleList']['fyn_vlzs'] = 'Vehicle&Areas';
+$app_list_strings['moduleList']['fyn_Vehicle'] = 'Vehicles';

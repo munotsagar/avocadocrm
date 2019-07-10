@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-30 20:24:41
+// created: 2019-07-10 15:24:24
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created:',
@@ -48,8 +48,8 @@ $mod_strings = array (
   'LBL_SUGGESTION_BOX_STATUS' => 'Status',
   'LBL_SUGGESTION_BOX_TITLE' => 'Title',
   'LBL_SUGGESTION_BOX_REL' => 'Relevance',
-  'LBL_ACCOUNT_ID' => 'Customer ID',
-  'LBL_ACCOUNT_NAME' => 'Customer Name:',
+  'LBL_ACCOUNT_ID' => 'Account ID',
+  'LBL_ACCOUNT_NAME' => 'Account Name:',
   'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
@@ -69,7 +69,7 @@ $mod_strings = array (
   'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
   'LBL_SEARCH_FORM_TITLE' => 'Case Search',
   'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
-  'LBL_LIST_ACCOUNT_NAME' => 'Customer Name',
+  'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
   'LBL_LIST_ASSIGNED' => 'Assigned To',
   'LBL_LIST_CLOSE' => 'Close',
   'LBL_LIST_FORM_TITLE' => 'Case List',
@@ -103,5 +103,6 @@ $mod_strings = array (
   'LBL_CONTACT_CREATED_BY_NAME' => 'Created by contact',
   'LBL_CONTACT_CREATED_BY' => 'Created by',
   'LBL_CASE_UPDATE_FORM' => 'Updates - Attachment form',
-  'LBL_ACCOUNT' => 'Customer',
+  'LBL_ACCOUNT' => 'Account',
+  'LBL_ACCOUNTS_CASES_1_FROM_ACCOUNTS_TITLE' => 'Customers',
 );

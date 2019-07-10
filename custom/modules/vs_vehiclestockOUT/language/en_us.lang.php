@@ -1,5 +1,5 @@
 <?php
-// created: 2018-12-03 17:51:19
+// created: 2019-07-10 15:24:26
 $mod_strings = array (
   'LBL_DO_NOT_DELETE' => 'do not delete',
   'LBL_TO_VEHICLE_FYN_VEHICLE_ID' => 'To Vehicle (related  ID)',
@@ -8,4 +8,5 @@ $mod_strings = array (
   'LBL_FYN_VEHICLE_VS_VEHICLESTOCKOUT_1_FROM_FYN_VEHICLE_TITLE' => 'From Vehicles',
   'LBL_DRIVER_NAME' => 'Driver Nametxt',
   'LBL_ASSIGNED_TO_NAME' => 'Driver Name',
+  'LBL_FYN_QR_CODE_BOXES_VS_VEHICLESTOCKOUT_1_FROM_FYN_QR_CODE_BOXES_TITLE' => 'QR Bank',
 );

@@ -1,5 +1,5 @@
 <?php
- // created: 2018-11-19 13:10:10
+ // created: 2019-06-21 17:06:48
 $dictionary['Account']['fields']['typeofbusiness_c']['inline_edit']='1';
 $dictionary['Account']['fields']['typeofbusiness_c']['labelValue']='Type Of Business';
 

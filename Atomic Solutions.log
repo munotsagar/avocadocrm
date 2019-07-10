@@ -1,0 +1,81 @@
+Tue Jul  9 05:52:02 2019 [9205][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Tue Jul  9 05:52:59 2019 [30548][1][FATAL] Exception handling in /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php:400
+Tue Jul  9 05:52:59 2019 [30548][1][FATAL] Exception in Controller:  SugarFolder::retrieveFoldersForProcessing() Cannot Retrieve Folders - Please check the users inbound email settings.
+Tue Jul  9 05:52:59 2019 [30548][1][FATAL] backtrace:
+#0 /home/admin/web/devmike.ml/public_html/avocadocrm/include/SugarFolders/SugarFolders.php(612): SugarFolder->retrieveFoldersForProcessing(Object(User), false)
+#1 /home/admin/web/devmike.ml/public_html/avocadocrm/modules/Emails/EmailUI.php(3202): SugarFolder->getGroupFoldersForSettings(Object(User))
+#2 /home/admin/web/devmike.ml/public_html/avocadocrm/modules/Emails/EmailUIAjax.php(1387): EmailUI->getShowAccountsOptions(Object(InboundEmail))
+#3 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/View/SugarView.php(818): include_once('/home/admin/web...')
+#4 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/View/views/view.classic.php(72): SugarView->includeClassicFile('modules/Emails/...')
+#5 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/View/SugarView.php(211): ViewClassic->display()
+#6 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(435): SugarView->process()
+#7 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(375): SugarController->processView()
+#8 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/SugarApplication.php(113): SugarController->execute()
+#9 /home/admin/web/devmike.ml/public_html/avocadocrm/index.php(53): SugarApplication->execute()
+#10 {main}
+Tue Jul  9 06:23:29 2019 [20651][1][FATAL] Exception handling in /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php:400
+Tue Jul  9 06:23:29 2019 [20651][1][FATAL] Exception in Controller: 
+Tue Jul  9 06:23:29 2019 [20651][1][FATAL] backtrace:
+#0 /home/admin/web/devmike.ml/public_html/avocadocrm/custom/modules/AOS_Invoices/controller.php(70): sugar_die('')
+#1 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(525): AOS_InvoicesController->action_printpdf()
+#2 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(494): SugarController->do_action()
+#3 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(468): SugarController->handle_action()
+#4 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(373): SugarController->process()
+#5 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/SugarApplication.php(113): SugarController->execute()
+#6 /home/admin/web/devmike.ml/public_html/avocadocrm/index.php(53): SugarApplication->execute()
+#7 {main}
+Tue Jul  9 06:38:43 2019 [9205][-none-][FATAL] SECURITY: User authentication for admin@gmail.com failed
+Tue Jul  9 06:38:43 2019 [9205][-none-][FATAL] FAILED LOGIN:attempts[1], ip[107.184.15.37], username[admin@gmail.com]
+Tue Jul  9 07:34:35 2019 [20654][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Tue Jul  9 07:38:37 2019 [6011][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Tue Jul  9 07:38:44 2019 [20652][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Tue Jul  9 07:38:45 2019 [1491][1][FATAL] Exception handling in /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php:400
+Tue Jul  9 07:38:45 2019 [1491][1][FATAL] Exception in Controller: 
+Tue Jul  9 07:38:45 2019 [1491][1][FATAL] backtrace:
+#0 /home/admin/web/devmike.ml/public_html/avocadocrm/modules/Administration/expandDatabase.php(49): sugar_die('')
+#1 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/View/SugarView.php(818): include_once('/home/admin/web...')
+#2 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/View/views/view.classic.php(72): SugarView->includeClassicFile('modules/Adminis...')
+#3 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/View/SugarView.php(211): ViewClassic->display()
+#4 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(435): SugarView->process()
+#5 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(375): SugarController->processView()
+#6 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/SugarApplication.php(113): SugarController->execute()
+#7 /home/admin/web/devmike.ml/public_html/avocadocrm/index.php(53): SugarApplication->execute()
+#8 {main}
+Tue Jul  9 07:40:49 2019 [20654][-none-][FATAL] SECURITY: User authentication for admin@gmail.com failed
+Tue Jul  9 07:40:49 2019 [20654][-none-][FATAL] FAILED LOGIN:attempts[1], ip[107.184.15.37], username[admin@gmail.com]
+Wed Jul 10 05:22:47 2019 [20650][1][FATAL] IP Address mismatch: SESSION IP: 107.184.15.37 CLIENT IP: 172.58.22.228
+Wed Jul 10 05:23:36 2019 [20652][1][FATAL] Exception handling in /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php:400
+Wed Jul 10 05:23:36 2019 [20652][1][FATAL] Exception in Controller: FPDF error: Can't open image file: qrboximages/272b8815-4cc9-1108-8706-5d1662f3ed04_qr_image.png
+Wed Jul 10 05:23:36 2019 [20652][1][FATAL] backtrace:
+#0 /home/admin/web/devmike.ml/public_html/avocadocrm/custom/modules/fyn_QR_CODE_BOXES/fpdf/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/admin/web/devmike.ml/public_html/avocadocrm/custom/modules/fyn_QR_CODE_BOXES/fpdf/fpdf.php(885): FPDF->_parsepng('qrboximages/272...')
+#2 /home/admin/web/devmike.ml/public_html/avocadocrm/custom/modules/fyn_QR_CODE_BOXES/controller.php(65): FPDF->Image('qrboximages/272...', 10.00125, 10.00125, 25, 25)
+#3 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(525): fyn_QR_CODE_BOXESController->action_displaypassedids()
+#4 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(494): SugarController->do_action()
+#5 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(468): SugarController->handle_action()
+#6 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(373): SugarController->process()
+#7 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/SugarApplication.php(113): SugarController->execute()
+#8 /home/admin/web/devmike.ml/public_html/avocadocrm/index.php(53): SugarApplication->execute()
+#9 {main}
+Wed Jul 10 05:23:47 2019 [30548][1][FATAL] Exception handling in /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php:400
+Wed Jul 10 05:23:47 2019 [30548][1][FATAL] Exception in Controller: FPDF error: Can't open image file: qrboximages/272b8815-4cc9-1108-8706-5d1662f3ed04_qr_image.png
+Wed Jul 10 05:23:47 2019 [30548][1][FATAL] backtrace:
+#0 /home/admin/web/devmike.ml/public_html/avocadocrm/custom/modules/fyn_QR_CODE_BOXES/fpdf/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/admin/web/devmike.ml/public_html/avocadocrm/custom/modules/fyn_QR_CODE_BOXES/fpdf/fpdf.php(885): FPDF->_parsepng('qrboximages/272...')
+#2 /home/admin/web/devmike.ml/public_html/avocadocrm/custom/modules/fyn_QR_CODE_BOXES/controller.php(65): FPDF->Image('qrboximages/272...', 10.00125, 10.00125, 25, 25)
+#3 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(525): fyn_QR_CODE_BOXESController->action_displaypassedids()
+#4 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(494): SugarController->do_action()
+#5 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(468): SugarController->handle_action()
+#6 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/Controller/SugarController.php(373): SugarController->process()
+#7 /home/admin/web/devmike.ml/public_html/avocadocrm/include/MVC/SugarApplication.php(113): SugarController->execute()
+#8 /home/admin/web/devmike.ml/public_html/avocadocrm/index.php(53): SugarApplication->execute()
+#9 {main}
+Wed Jul 10 14:50:56 2019 [20651][1][FATAL] IP Address mismatch: SESSION IP: 172.58.22.228 CLIENT IP: 172.58.19.58
+Wed Jul 10 15:23:41 2019 [20652][1][FATAL] Class Connectors does not exist, unable to rename.
+Wed Jul 10 15:23:41 2019 [20652][1][FATAL] Class Version does not exist, unable to rename.
+Wed Jul 10 15:23:41 2019 [20652][1][FATAL] Class CustomFields does not exist, unable to rename.
+Wed Jul 10 15:23:41 2019 [20652][1][FATAL] Class Audit does not exist, unable to rename.
+Wed Jul 10 15:24:24 2019 [20653][1][FATAL] Class Connectors does not exist, unable to rename.
+Wed Jul 10 15:24:24 2019 [20653][1][FATAL] Class Version does not exist, unable to rename.
+Wed Jul 10 15:24:24 2019 [20653][1][FATAL] Class CustomFields does not exist, unable to rename.
+Wed Jul 10 15:24:24 2019 [20653][1][FATAL] Class Audit does not exist, unable to rename.

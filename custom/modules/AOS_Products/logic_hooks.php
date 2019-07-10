@@ -11,6 +11,7 @@ $hook_array['after_save'][] = Array(95, 'Relationship3', 'custom/modules/AOS_Pro
 //$hook_array['before_save'][]=Array(94,'Warehouse 1 Invertory StockIN','custom/modules/ST_products/warehouse.php','Class_StockIN1','func_StockIN1');
 //$hook_array['before_save'][]=Array(94,'opencart status','custom/modules/ST_products/opencart.php','opencart_status','open_status');
 
+$hook_array['before_save'][] = Array(1, 'After create new product information save user stock for product', 'custom/modules/AOS_Products/createUserStock.php','CreateUserStock', 'saveUserStock'); 
 
 
 ?>

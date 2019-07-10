@@ -3,22 +3,22 @@
 
 
  // created: 2018-11-19 11:15:47
-$dictionary['Prospect']['fields']['jjwg_maps_address_c']['inline_edit']=1;
-
- 
-
- // created: 2018-11-19 11:15:47
 $dictionary['Prospect']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
 
  
 
  // created: 2018-11-19 11:15:47
-$dictionary['Prospect']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
+$dictionary['Prospect']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
  
 
  // created: 2018-11-19 11:15:47
 $dictionary['Prospect']['fields']['jjwg_maps_geocode_status_c']['inline_edit']=1;
+
+ 
+
+ // created: 2018-11-19 11:15:47
+$dictionary['Prospect']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
 
  
 ?>

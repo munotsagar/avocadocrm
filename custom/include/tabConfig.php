@@ -1,5 +1,5 @@
 <?php
-// created: 2018-12-01 02:45:02
+// created: 2019-06-23 06:58:43
 $GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_SALES' => 
   array (
@@ -18,12 +18,9 @@ $GLOBALS['tabStructure'] = array (
     array (
       0 => 'AOS_Products',
       1 => 'fyn_Stock_In',
-      2 => 'fyn_Stock_out',
-      3 => 'fyn_Vehicle',
-      4 => 'vs_Vehicle_StockIN',
-      5 => 'vs_vehiclestockOUT',
-      6 => 'fyn_QR_CODE_BOXES',
-      7 => 'fyn_QR_CODE_PALLETTE',
+      2 => 'fyn_Vehicle',
+      3 => 'fyn_QR_CODE_BOXES',
+      4 => 'fyn_QR_CODE_PALLETTE',
     ),
   ),
   'LBL_TABGROUP_ACTIVITIES' => 
@@ -46,8 +43,7 @@ $GLOBALS['tabStructure'] = array (
     array (
       0 => 'fyn_Vehicle',
       1 => 'fyn_locations',
-      2 => 'fyn_vlzs',
-      3 => 'fyn_routes',
+      2 => 'fyn_routes',
     ),
   ),
 );

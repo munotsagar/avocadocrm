@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-30 20:24:42
+// created: 2019-07-10 15:24:27
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -25,14 +25,14 @@ $mod_strings = array (
   'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
   'LBL_SECURITYGROUPS' => 'Security Groups',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
-  'LBL_LIST_FORM_TITLE' => 'QR Code Boxes List',
+  'LBL_LIST_FORM_TITLE' => 'QR Bank List',
   'LBL_MODULE_NAME' => 'QR Code Boxes',
   'LBL_MODULE_TITLE' => 'QR Code Boxes',
-  'LBL_HOMEPAGE_TITLE' => 'My QR Code Boxes',
-  'LNK_NEW_RECORD' => 'Create QR Code Boxes',
-  'LNK_LIST' => 'View QR Code Boxes',
-  'LNK_IMPORT_FYN_QR_CODE_BOXES' => 'Import QR Code Boxes',
-  'LBL_SEARCH_FORM_TITLE' => 'Search QR Code Boxes',
+  'LBL_HOMEPAGE_TITLE' => 'My QR Bank',
+  'LNK_NEW_RECORD' => 'Create QR Bank',
+  'LNK_LIST' => 'View QR Bank',
+  'LNK_IMPORT_FYN_QR_CODE_BOXES' => 'Import QR Bank',
+  'LBL_SEARCH_FORM_TITLE' => 'Search QR Bank',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_FYN_QR_CODE_BOXES_SUBPANEL_TITLE' => 'QR Code Boxes',
@@ -47,4 +47,5 @@ $mod_strings = array (
   'LBL_FYN_QR_CODE_BOXES_VS_VEHICLESTOCKOUT_1_FROM_VS_VEHICLESTOCKOUT_TITLE' => 'Vehicle StockOUT',
   'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE' => 'QR Code Pallette',
   'LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE' => 'Products',
+  'LBL_FYN_STOCK_IN_FYN_QR_CODE_BOXES_1_FROM_FYN_STOCK_IN_TITLE' => 'Stock In',
 );

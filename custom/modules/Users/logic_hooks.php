@@ -7,6 +7,8 @@ $hook_array = Array();
 $hook_array['after_login'] = Array(); 
 $hook_array['after_login'][] = Array(1, 'SugarFeed old feed entry remover', 'modules/SugarFeed/SugarFeedFlush.php','SugarFeedFlush', 'flushStaleEntries'); 
 
+$hook_array['before_save'][] = Array(1, 'After update user information save product stock for user', 'custom/modules/Users/createProductStock.php','CreateProductStock', 'saveProductStock'); 
+
 
 
 ?>

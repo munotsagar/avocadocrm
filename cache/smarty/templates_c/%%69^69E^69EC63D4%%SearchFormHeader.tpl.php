@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-04-04 14:24:45
+<?php /* Smarty version 2.6.31, created on 2019-07-09 15:46:36
          compiled from cache/themes/SuiteP/modules/fyn_Stock_In/SearchFormHeader.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/themes/SuiteP/modules/fyn_Stock_In/SearchFormHeader.tpl', 4, false),)), $this); ?>
@@ -114,4 +114,4 @@ _searchSearchForm' style='<?php echo $this->_tpl_vars['tabData']['displayDiv']; 
         <div id='<?php echo $this->_tpl_vars['module']; ?>
 saved_viewsSearchForm'
              style='display: none;'><?php echo $this->_tpl_vars['saved_views_txt']; ?>
-</div>
+</div>

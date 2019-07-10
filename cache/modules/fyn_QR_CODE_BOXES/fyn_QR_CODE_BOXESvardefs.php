@@ -293,50 +293,39 @@
       'len' => '255',
       'size' => '20',
     ),
-    'fyn_qr_code_boxes_vs_vehiclestockout_1' => 
+    'fyn_stock_in_fyn_qr_code_boxes_1' => 
     array (
-      'name' => 'fyn_qr_code_boxes_vs_vehiclestockout_1',
+      'name' => 'fyn_stock_in_fyn_qr_code_boxes_1',
       'type' => 'link',
-      'relationship' => 'fyn_qr_code_boxes_vs_vehiclestockout_1',
+      'relationship' => 'fyn_stock_in_fyn_qr_code_boxes_1',
       'source' => 'non-db',
-      'module' => 'vs_vehiclestockOUT',
-      'bean_name' => 'vs_vehiclestockOUT',
-      'side' => 'right',
-      'vname' => 'LBL_FYN_QR_CODE_BOXES_VS_VEHICLESTOCKOUT_1_FROM_VS_VEHICLESTOCKOUT_TITLE',
+      'module' => 'fyn_Stock_In',
+      'bean_name' => 'fyn_Stock_In',
+      'vname' => 'LBL_FYN_STOCK_IN_FYN_QR_CODE_BOXES_1_FROM_FYN_STOCK_IN_TITLE',
+      'id_name' => 'fyn_stock_in_fyn_qr_code_boxes_1fyn_stock_in_ida',
     ),
-    'fyn_qr_code_pallette_fyn_qr_code_boxes_1' => 
+    'fyn_stock_in_fyn_qr_code_boxes_1_name' => 
     array (
-      'name' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1',
-      'type' => 'link',
-      'relationship' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1',
-      'source' => 'non-db',
-      'module' => 'fyn_QR_CODE_PALLETTE',
-      'bean_name' => 'fyn_QR_CODE_PALLETTE',
-      'vname' => 'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE',
-      'id_name' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida',
-    ),
-    'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name' => 
-    array (
-      'name' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name',
+      'name' => 'fyn_stock_in_fyn_qr_code_boxes_1_name',
       'type' => 'relate',
       'source' => 'non-db',
-      'vname' => 'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE',
+      'vname' => 'LBL_FYN_STOCK_IN_FYN_QR_CODE_BOXES_1_FROM_FYN_STOCK_IN_TITLE',
       'save' => true,
-      'id_name' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida',
-      'link' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1',
-      'table' => 'fyn_qr_code_pallette',
-      'module' => 'fyn_QR_CODE_PALLETTE',
+      'id_name' => 'fyn_stock_in_fyn_qr_code_boxes_1fyn_stock_in_ida',
+      'link' => 'fyn_stock_in_fyn_qr_code_boxes_1',
+      'table' => 'fyn_stock_in',
+      'module' => 'fyn_Stock_In',
       'rname' => 'name',
     ),
-    'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida' => 
+    'fyn_stock_in_fyn_qr_code_boxes_1fyn_stock_in_ida' => 
     array (
-      'name' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida',
+      'name' => 'fyn_stock_in_fyn_qr_code_boxes_1fyn_stock_in_ida',
       'type' => 'link',
-      'relationship' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1',
+      'relationship' => 'fyn_stock_in_fyn_qr_code_boxes_1',
       'source' => 'non-db',
       'reportable' => false,
       'side' => 'right',
-      'vname' => 'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_BOXES_TITLE',
+      'vname' => 'LBL_FYN_STOCK_IN_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_BOXES_TITLE',
     ),
     'aos_products_fyn_qr_code_boxes_1' => 
     array (
@@ -372,16 +361,50 @@
       'side' => 'right',
       'vname' => 'LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_BOXES_TITLE',
     ),
-    'fyn_qr_code_boxes_fyn_stock_in_1' => 
+    'fyn_qr_code_pallette_fyn_qr_code_boxes_1' => 
     array (
-      'name' => 'fyn_qr_code_boxes_fyn_stock_in_1',
+      'name' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1',
       'type' => 'link',
-      'relationship' => 'fyn_qr_code_boxes_fyn_stock_in_1',
+      'relationship' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1',
       'source' => 'non-db',
-      'module' => 'fyn_Stock_In',
-      'bean_name' => 'fyn_Stock_In',
+      'module' => 'fyn_QR_CODE_PALLETTE',
+      'bean_name' => 'fyn_QR_CODE_PALLETTE',
+      'vname' => 'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE',
+      'id_name' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida',
+    ),
+    'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name' => 
+    array (
+      'name' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1_name',
+      'type' => 'relate',
+      'source' => 'non-db',
+      'vname' => 'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_PALLETTE_TITLE',
+      'save' => true,
+      'id_name' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida',
+      'link' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1',
+      'table' => 'fyn_qr_code_pallette',
+      'module' => 'fyn_QR_CODE_PALLETTE',
+      'rname' => 'name',
+    ),
+    'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida' => 
+    array (
+      'name' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1fyn_qr_code_pallette_ida',
+      'type' => 'link',
+      'relationship' => 'fyn_qr_code_pallette_fyn_qr_code_boxes_1',
+      'source' => 'non-db',
+      'reportable' => false,
       'side' => 'right',
-      'vname' => 'LBL_FYN_QR_CODE_BOXES_FYN_STOCK_IN_1_FROM_FYN_STOCK_IN_TITLE',
+      'vname' => 'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_BOXES_TITLE',
+    ),
+    'fyn_qr_code_boxes_vs_vehiclestockout_1' => 
+    array (
+      'name' => 'fyn_qr_code_boxes_vs_vehiclestockout_1',
+      'type' => 'link',
+      'relationship' => 'fyn_qr_code_boxes_vs_vehiclestockout_1',
+      'source' => 'non-db',
+      'module' => 'vs_vehiclestockOUT',
+      'bean_name' => 'vs_vehiclestockOUT',
+      'side' => 'right',
+      'vname' => 'LBL_FYN_QR_CODE_BOXES_VS_VEHICLESTOCKOUT_1_FROM_VS_VEHICLESTOCKOUT_TITLE',
     ),
     'fyn_qr_code_boxes_fyn_stock_out_1' => 
     array (
@@ -393,6 +416,17 @@
       'bean_name' => 'fyn_Stock_out',
       'side' => 'right',
       'vname' => 'LBL_FYN_QR_CODE_BOXES_FYN_STOCK_OUT_1_FROM_FYN_STOCK_OUT_TITLE',
+    ),
+    'fyn_qr_code_boxes_fyn_stock_in_1' => 
+    array (
+      'name' => 'fyn_qr_code_boxes_fyn_stock_in_1',
+      'type' => 'link',
+      'relationship' => 'fyn_qr_code_boxes_fyn_stock_in_1',
+      'source' => 'non-db',
+      'module' => 'fyn_Stock_In',
+      'bean_name' => 'fyn_Stock_In',
+      'side' => 'right',
+      'vname' => 'LBL_FYN_QR_CODE_BOXES_FYN_STOCK_IN_1_FROM_FYN_STOCK_IN_TITLE',
     ),
   ),
   'relationships' => 

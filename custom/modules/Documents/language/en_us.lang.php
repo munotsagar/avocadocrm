@@ -1,5 +1,6 @@
 <?php
-// created: 2018-11-19 11:31:49
+// created: 2019-07-05 06:17:50
 $mod_strings = array (
-  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Customers',
+  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
+  'LBL_ACCOUNTS_DOCUMENTS_1_FROM_ACCOUNTS_TITLE' => 'Accounts',
 );

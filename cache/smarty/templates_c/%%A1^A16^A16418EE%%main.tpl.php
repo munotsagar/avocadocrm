@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-03-22 07:57:19
+<?php /* Smarty version 2.6.31, created on 2019-07-09 07:38:51
          compiled from modules/Calendar/tpls/main.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'modules/Calendar/tpls/main.tpl', 204, false),array('function', 'sugar_getjspath', 'modules/Calendar/tpls/main.tpl', 310, false),array('function', 'sugar_getscript', 'modules/Calendar/tpls/main.tpl', 319, false),)), $this); ?>
@@ -361,3 +361,4 @@ YAHOO.util.Event.onDOMReady(function(){
 
 <div id='calendarContainer'></div>
 <?php echo smarty_function_sugar_getscript(array('file' => "modules/Calendar/Cal.js"), $this);?>
+

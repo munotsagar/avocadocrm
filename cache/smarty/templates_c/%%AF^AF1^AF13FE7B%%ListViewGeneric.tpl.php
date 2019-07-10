@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-01-30 20:24:55
+<?php /* Smarty version 2.6.31, created on 2019-07-09 07:39:24
          compiled from themes/SuiteP/include/ListView/ListViewGeneric.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 41, false),array('function', 'sugar_getjspath', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 43, false),array('function', 'counter', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 131, false),array('function', 'sugar_translate', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 168, false),array('function', 'sugar_ajax_url', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 265, false),array('function', 'sugar_evalcolumn_old', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 269, false),array('function', 'sugar_field', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 271, false),array('function', 'sugar_getimage', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 278, false),array('modifier', 'replace', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 87, false),array('modifier', 'default', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 156, false),array('modifier', 'lower', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 158, false),array('modifier', 'upper', 'themes/SuiteP/include/ListView/ListViewGeneric.tpl', 161, false),)), $this); ?>
@@ -387,4 +387,4 @@ function lvg_nav(m,id,act,offset,t){
 <?php if ($this->_tpl_vars['form']['footerTpl']): ?>
     <?php echo smarty_function_sugar_include(array('type' => 'smarty','file' => $this->_tpl_vars['form']['headerTpl']), $this);?>
 
-<?php endif; ?>
+<?php endif; ?>

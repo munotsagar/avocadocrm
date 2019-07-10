@@ -1,5 +1,5 @@
 <?php
- // created: 2018-12-11 12:40:55
+ // created: 2019-06-12 18:47:03
 $dictionary['AOS_Quotes']['fields']['commission_amount_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['commission_amount_c']['labelValue']='Commission Amount';
 

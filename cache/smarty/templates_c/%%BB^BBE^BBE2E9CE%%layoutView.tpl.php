@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-02-12 12:19:50
+<?php /* Smarty version 2.6.31, created on 2019-07-09 07:39:55
          compiled from themes/SuiteP/modules/ModuleBuilder/tpls/layoutView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_translate', 'themes/SuiteP/modules/ModuleBuilder/tpls/layoutView.tpl', 47, false),array('function', 'sugar_help', 'themes/SuiteP/modules/ModuleBuilder/tpls/layoutView.tpl', 55, false),array('function', 'counter', 'themes/SuiteP/modules/ModuleBuilder/tpls/layoutView.tpl', 76, false),array('function', 'sugar_getimage', 'themes/SuiteP/modules/ModuleBuilder/tpls/layoutView.tpl', 92, false),array('function', 'eval', 'themes/SuiteP/modules/ModuleBuilder/tpls/layoutView.tpl', 100, false),array('modifier', 'upper', 'themes/SuiteP/modules/ModuleBuilder/tpls/layoutView.tpl', 133, false),array('modifier', 'escape', 'themes/SuiteP/modules/ModuleBuilder/tpls/layoutView.tpl', 302, false),)), $this); ?>
@@ -418,4 +418,4 @@ ModuleBuilder.package=<?php if ($this->_tpl_vars['fromModuleBuilder']): ?>"<?php
 
 ModuleBuilder.disablePopupPrompt = <?php if ($this->_tpl_vars['syncDetailEditViews']): ?><?php echo $this->_tpl_vars['syncDetailEditViews']; ?>
 <?php else: ?>false<?php endif; ?>;
-</script>
+</script>

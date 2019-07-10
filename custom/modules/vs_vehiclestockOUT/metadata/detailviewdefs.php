@@ -70,11 +70,6 @@ array (
         ),
         2 => 
         array (
-          0 => 
-          array (
-            'name' => 'aos_products_vs_vehiclestockout_1_name',
-            'label' => 'LBL_AOS_PRODUCTS_VS_VEHICLESTOCKOUT_1_FROM_AOS_PRODUCTS_TITLE',
-          ),
           1 => 
           array (
             'name' => 'fyn_qr_code_boxes_vs_vehiclestockout_1_name',

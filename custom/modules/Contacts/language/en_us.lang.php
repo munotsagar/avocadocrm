@@ -1,9 +1,10 @@
 <?php
-// created: 2018-11-19 11:31:49
+// created: 2019-07-05 06:17:50
 $mod_strings = array (
-  'LBL_ACCOUNT_NAME' => 'Customer Name:',
-  'LBL_ACCOUNT_ID' => 'Customer ID:',
-  'LBL_ACCOUNT' => 'Customer',
+  'LBL_ACCOUNT_NAME' => 'Account Name:',
+  'LBL_ACCOUNT_ID' => 'Account ID:',
+  'LBL_ACCOUNT' => 'Account',
   'LBL_AOS_QUOTES' => 'Order',
-  'LBL_LIST_ACCOUNT_NAME' => 'Customer Name',
+  'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
+  'LBL_ACCOUNTS_CONTACTS_1_FROM_ACCOUNTS_TITLE' => 'Accounts',
 );

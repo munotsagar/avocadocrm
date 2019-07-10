@@ -1,5 +1,5 @@
 <?php
-// created: 2018-12-07 22:54:21
+// created: 2019-07-10 15:24:26
 $mod_strings = array (
   'LBL_CLASS1_BOX_28' => 'Class1 Box 28',
   'LBL_CLASS1_BOX_48' => 'Class1 Box 48',
@@ -36,7 +36,7 @@ $mod_strings = array (
   'LBL_DETAILVIEW_PANEL1' => 'Product Class1',
   'LBL_DETAILVIEW_PANEL2' => 'Product Class2',
   'LBL_DETAILVIEW_PANEL3' => 'Product Organic',
-  'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_BOXES_TITLE' => 'QR Code Boxes',
+  'LBL_FYN_QR_CODE_PALLETTE_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_BOXES_TITLE' => 'QR Bank',
   'LBL_NO_OF_BOXES' => 'No Of Boxes',
   'LBL_PRODUCT_MODEL' => 'Product Model',
   'LBL_EDITVIEW_PANEL6' => 'Other Products',

@@ -1,5 +1,5 @@
 <?php
-error_reporting(E_ALL);
+//error_reporting(E_ALL);
 //ini_set('display_errors', 1);
 if(!defined('sugarEntry') || !sugarEntry)
     die('Not A Valid Entry Point');

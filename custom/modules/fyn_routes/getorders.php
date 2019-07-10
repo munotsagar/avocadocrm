@@ -30,9 +30,9 @@ class Test
 
          		foreach ($orders as $order) 
          		{
-           			echo "<br><br>Order ID:";print_r($order->id);echo"<br><br>";
+           			//echo "<br><br>Order ID:";print_r($order->id);echo"<br><br>";
            			$order_bean = BeanFactory::getBean('AOS_Invoices',$order->id);
-
+								//echo $order->id;exit;
 
            			$order_bean->load_relationship('fyn_routes_aos_invoices_1');
               		$order_bean->fyn_routes_aos_invoices_1->add($bean->id);

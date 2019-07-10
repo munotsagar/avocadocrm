@@ -1,5 +1,5 @@
 <?php
-// created: 2018-12-01 00:31:45
+// created: 2019-07-10 15:24:26
 $mod_strings = array (
   'LBL_DO_NOT_DELETE' => 'do not delete',
   'LBL_FROM1' => 'From',
@@ -7,4 +7,10 @@ $mod_strings = array (
   'LBL_SELECTVEHICLE' => 'Select Vehicle',
   'LBL_QUANTITY' => 'Quantity',
   'LBL_NAME' => 'Stock In Name',
+  'LBL_VENDER' => 'Vender',
+  'LBL_DATE_ENTERED' => 'Truck Info',
+  'LBL_EDITVIEW_PANEL1' => 'undefined 1',
+  'LBL_STATUS' => 'Status',
+  'LBL_FYN_STOCK_IN_FYN_QR_CODE_BOXES_1_FROM_FYN_QR_CODE_BOXES_TITLE' => 'QR Bank',
+  'LBL_FYN_QR_CODE_BOXES_FYN_STOCK_IN_1_FROM_FYN_QR_CODE_BOXES_TITLE' => 'QR Bank',
 );

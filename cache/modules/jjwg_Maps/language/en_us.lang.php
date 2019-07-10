@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-30 20:24:42
+// created: 2019-07-10 15:24:25
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -150,5 +150,5 @@ $mod_strings = array (
   'LBL_GET_GOOGLE_API_KEY' => 'Get A Key',
   'LBL_GOOGLE_API_KEY' => 'Google Api Key',
   'LBL_ERROR_NO_GOOGLE_API_KEY' => 'Please set the Google Api Key in the Google Maps Administrative Panel.',
-  'LBL_ACCOUNTS' => 'Customers',
+  'LBL_ACCOUNTS' => 'Accounts',
 );

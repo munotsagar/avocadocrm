@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL); ini_set("display_errord", 1);
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by

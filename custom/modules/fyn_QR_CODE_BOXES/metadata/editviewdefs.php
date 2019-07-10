@@ -41,7 +41,6 @@ array (
             'name' => 'aos_products_fyn_qr_code_boxes_1_name',
             'label' => 'LBL_AOS_PRODUCTS_FYN_QR_CODE_BOXES_1_FROM_AOS_PRODUCTS_TITLE',
           ),
-          1 => '',
         ),
         1 => 
         array (

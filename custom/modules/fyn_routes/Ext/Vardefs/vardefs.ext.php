@@ -2,6 +2,12 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2018-12-01 16:36:46
+$dictionary['fyn_routes']['fields']['zipcode_c']['inline_edit']='1';
+$dictionary['fyn_routes']['fields']['zipcode_c']['labelValue']='Zip Code';
+
+ 
+
 // created: 2018-12-01 07:11:18
 $dictionary["fyn_routes"]["fields"]["fyn_vlzs_fyn_routes_1"] = array (
   'name' => 'fyn_vlzs_fyn_routes_1',
@@ -36,6 +42,20 @@ $dictionary["fyn_routes"]["fields"]["fyn_vlzs_fyn_routes_1fyn_vlzs_ida"] = array
 );
 
 
+ // created: 2019-05-18 12:44:19
+$dictionary['fyn_routes']['fields']['description']['inline_edit']=true;
+$dictionary['fyn_routes']['fields']['description']['comments']='Full text of the note';
+$dictionary['fyn_routes']['fields']['description']['merge_filter']='disabled';
+
+ 
+
+ // created: 2019-07-09 06:11:06
+$dictionary['fyn_routes']['fields']['date_entered']['comments']='Date record created';
+$dictionary['fyn_routes']['fields']['date_entered']['merge_filter']='disabled';
+$dictionary['fyn_routes']['fields']['date_entered']['required']=true;
+
+ 
+
 // created: 2018-12-01 17:02:43
 $dictionary["fyn_routes"]["fields"]["fyn_routes_aos_invoices_1"] = array (
   'name' => 'fyn_routes_aos_invoices_1',
@@ -48,10 +68,4 @@ $dictionary["fyn_routes"]["fields"]["fyn_routes_aos_invoices_1"] = array (
   'vname' => 'LBL_FYN_ROUTES_AOS_INVOICES_1_FROM_AOS_INVOICES_TITLE',
 );
 
-
- // created: 2018-12-01 16:36:46
-$dictionary['fyn_routes']['fields']['zipcode_c']['inline_edit']='1';
-$dictionary['fyn_routes']['fields']['zipcode_c']['labelValue']='Zip Code';
-
- 
 ?>

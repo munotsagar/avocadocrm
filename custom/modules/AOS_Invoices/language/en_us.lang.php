@@ -1,8 +1,8 @@
 <?php
-// created: 2019-01-16 16:09:37
+// created: 2019-07-05 06:17:50
 $mod_strings = array (
-  'LBL_BILLING_ACCOUNT' => 'Customer',
-  'LBL_ACCOUNTS' => 'Customers',
+  'LBL_BILLING_ACCOUNT' => 'Account',
+  'LBL_ACCOUNTS' => 'Accounts',
   'LBL_AOS_QUOTES_AOS_INVOICES' => 'Order: Invoices',
   'LBL_AOS_INVOICES_FYN_STOCK_OUT_1_FROM_FYN_STOCK_OUT_TITLE' => 'Stock Out',
   'LBL_QUOTE_NUMBER' => 'Order Number',
@@ -13,7 +13,7 @@ $mod_strings = array (
   'LBL_AOS_INVOICES_VS_VEHICLESTOCKOUT_1_FROM_VS_VEHICLESTOCKOUT_TITLE' => 'Vehicle StockOUT',
   'LBL_CUSTOMERID' => 'CustomerID',
   'LBL_ORDERID' => 'OrderID',
-  'LBL_APPROVAL_STATUS' => 'Order Status',
+  'LBL_APPROVAL_STATUS' => 'Invoice Status',
   'LBL_SALES_COMMISSION_USER_USER_ID' => 'Sales / Commission User (related User ID)',
   'LBL_SALES_COMMISSION_USER' => 'Sales / Commission User',
   'LBL_COMMISSION_AMOUNT' => 'Commission Amount',
@@ -37,4 +37,6 @@ $mod_strings = array (
   'LBL_ITEM15' => 'Item15',
   'LBL_DUE_DATE' => 'Due Dateold',
   'LBL_DUE_DATES' => 'Due Date',
+  'LBL_DAYS_OVERDUE' => 'Days Overdue',
+  'LBL_DETAILVIEW_PANEL1' => 'New Panel 1',
 );

@@ -1,6 +1,6 @@
 <?php
- // created: 2018-11-19 20:42:39
+ // created: 2019-06-28 18:50:39
 $dictionary['AOS_Products']['fields']['stockin_c']['inline_edit']='1';
-$dictionary['AOS_Products']['fields']['stockin_c']['labelValue']='Stock In';
+$dictionary['AOS_Products']['fields']['stockin_c']['labelValue']='Total In Stock';
 
  ?>

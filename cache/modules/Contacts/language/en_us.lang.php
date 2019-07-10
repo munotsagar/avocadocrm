@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-30 20:24:41
+// created: 2019-07-10 15:24:24
 $mod_strings = array (
   'LBL_ID' => 'ID:',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -75,8 +75,8 @@ $mod_strings = array (
   'LBL_LAWFUL_BASIS_SOURCE' => 'Lawful Basis Source',
   'LBL_CONSENT' => 'Consent',
   'ERR_DELETE_RECORD' => 'Specify the record number to delete the contact.',
-  'LBL_ACCOUNT_ID' => 'Customer ID:',
-  'LBL_ACCOUNT_NAME' => 'Customer Name:',
+  'LBL_ACCOUNT_ID' => 'Account ID:',
+  'LBL_ACCOUNT_NAME' => 'Account Name:',
   'LBL_CAMPAIGN' => 'Campaign:',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_ADD_BUSINESSCARD' => 'Enter Business Card',
@@ -111,7 +111,7 @@ $mod_strings = array (
   'LBL_INVITEE' => 'Direct Reports',
   'LBL_LEAD_SOURCE' => 'Lead Source:',
   'LBL_LIST_ACCEPT_STATUS' => 'Accept Status',
-  'LBL_LIST_ACCOUNT_NAME' => 'Customer Name',
+  'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
   'LBL_LIST_CONTACT_NAME' => 'Contact Name',
   'LBL_LIST_CONTACT_ROLE' => 'Role',
   'LBL_LIST_EMAIL_ADDRESS' => 'Email',
@@ -194,5 +194,6 @@ $mod_strings = array (
   'LBL_AOS_INVOICES' => 'Invoices',
   'LBL_AOS_QUOTES' => 'Order',
   'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Project Contacts from Project Title',
-  'LBL_ACCOUNT' => 'Customer',
+  'LBL_ACCOUNT' => 'Account',
+  'LBL_ACCOUNTS_CONTACTS_1_FROM_ACCOUNTS_TITLE' => 'Customers',
 );

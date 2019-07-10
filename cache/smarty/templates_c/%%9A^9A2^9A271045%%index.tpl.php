@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-01-30 20:48:36
+<?php /* Smarty version 2.6.31, created on 2019-07-09 07:39:34
          compiled from modules/Administration/index.tpl */ ?>
 
 
@@ -56,3 +56,4 @@
 
 </div>
 
+

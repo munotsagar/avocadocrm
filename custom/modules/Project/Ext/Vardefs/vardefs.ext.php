@@ -2,23 +2,23 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2018-11-19 11:15:47
-$dictionary['Project']['fields']['jjwg_maps_address_c']['inline_edit']=1;
-
- 
-
- // created: 2018-11-19 11:15:47
+ // created: 2019-06-12 18:47:09
 $dictionary['Project']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
 
  
 
- // created: 2018-11-19 11:15:47
-$dictionary['Project']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
+ // created: 2019-06-12 18:47:08
+$dictionary['Project']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
  
 
- // created: 2018-11-19 11:15:47
+ // created: 2019-06-12 18:47:09
 $dictionary['Project']['fields']['jjwg_maps_geocode_status_c']['inline_edit']=1;
+
+ 
+
+ // created: 2019-06-12 18:47:09
+$dictionary['Project']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
 
  
 ?>

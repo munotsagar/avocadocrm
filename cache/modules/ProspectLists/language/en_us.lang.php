@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-30 20:24:41
+// created: 2019-07-10 15:24:24
 $mod_strings = array (
   'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
   'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
@@ -36,7 +36,7 @@ $mod_strings = array (
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
   'LBL_LEADS_SUBPANEL_TITLE' => 'Leads',
   'LBL_PROSPECTS_SUBPANEL_TITLE' => 'Targets',
-  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Customers',
+  'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
   'LBL_COPY_PREFIX' => 'Copy of',
   'LBL_USERS_SUBPANEL_TITLE' => 'Users',
   'LBL_TYPE' => 'Type',
@@ -48,5 +48,5 @@ $mod_strings = array (
   'LBL_DOMAIN' => 'No emails to Domain',
   'LBL_LIST_PROSPECTLIST_NAME' => 'Name',
   'LBL_EMAIL_MARKETING' => 'Email Marketing',
-  'LBL_ACCOUNTS' => 'Customers',
+  'LBL_ACCOUNTS' => 'Accounts',
 );

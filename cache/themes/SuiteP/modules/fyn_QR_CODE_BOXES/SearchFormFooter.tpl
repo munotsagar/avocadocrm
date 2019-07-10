@@ -26,3 +26,4 @@ function toggleInlineSearch()
 {if $searchFormInPopup}
     {include file='include/SearchForm/tpls/footerPopup.tpl'}
 {/if}
+

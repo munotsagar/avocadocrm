@@ -1,5 +1,5 @@
 <?php
- // created: 2018-12-12 23:29:54
+ // created: 2019-06-12 18:47:04
 $dictionary['AOS_Quotes']['fields']['updated_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['updated_c']['labelValue']='updated';
 

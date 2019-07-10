@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-03-22 07:57:19
+<?php /* Smarty version 2.6.31, created on 2019-07-09 07:38:51
          compiled from themes/SuiteP/modules/Calendar/tpls/form.tpl */ ?>
 
 	<form id="CalendarEditView" name="CalendarEditView" method="POST">
@@ -62,4 +62,4 @@ function cal_isValidDuration(){
 '; ?>
 
 </script>
-<script type="text/javascript" src="include/SugarFields/Fields/Datetimecombo/Datetimecombo.js"></script>
+<script type="text/javascript" src="include/SugarFields/Fields/Datetimecombo/Datetimecombo.js"></script>

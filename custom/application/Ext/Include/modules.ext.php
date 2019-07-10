@@ -3,12 +3,36 @@
 
  
  //WARNING: The contents of this file are auto-generated
-$beanList['vs_vehiclestockOUT'] = 'vs_vehiclestockOUT';
-$beanFiles['vs_vehiclestockOUT'] = 'modules/vs_vehiclestockOUT/vs_vehiclestockOUT.php';
-$moduleList[] = 'vs_vehiclestockOUT';
-$beanList['vs_Vehicle_StockIN'] = 'vs_Vehicle_StockIN';
-$beanFiles['vs_Vehicle_StockIN'] = 'modules/vs_Vehicle_StockIN/vs_Vehicle_StockIN.php';
-$moduleList[] = 'vs_Vehicle_StockIN';
+$beanList['prove_product_vehicle_stock'] = 'prove_product_vehicle_stock';
+$beanFiles['prove_product_vehicle_stock'] = 'modules/prove_product_vehicle_stock/prove_product_vehicle_stock.php';
+$moduleList[] = 'prove_product_vehicle_stock';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['fyn_QR_CODE_BOXES'] = 'fyn_QR_CODE_BOXES';
+$beanFiles['fyn_QR_CODE_BOXES'] = 'modules/fyn_QR_CODE_BOXES/fyn_QR_CODE_BOXES.php';
+$moduleList[] = 'fyn_QR_CODE_BOXES';
+$beanList['fyn_QR_CODE_PALLETTE'] = 'fyn_QR_CODE_PALLETTE';
+$beanFiles['fyn_QR_CODE_PALLETTE'] = 'modules/fyn_QR_CODE_PALLETTE/fyn_QR_CODE_PALLETTE.php';
+$moduleList[] = 'fyn_QR_CODE_PALLETTE';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['dc_driver_commission'] = 'dc_driver_commission';
+$beanFiles['dc_driver_commission'] = 'modules/dc_driver_commission/dc_driver_commission.php';
+$moduleList[] = 'dc_driver_commission';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['fyn_Stock_In'] = 'fyn_Stock_In';
+$beanFiles['fyn_Stock_In'] = 'modules/fyn_Stock_In/fyn_Stock_In.php';
+$moduleList[] = 'fyn_Stock_In';
+$beanList['fyn_Stock_out'] = 'fyn_Stock_out';
+$beanFiles['fyn_Stock_out'] = 'modules/fyn_Stock_out/fyn_Stock_out.php';
+$moduleList[] = 'fyn_Stock_out';
 
 
  
@@ -29,22 +53,19 @@ $moduleList[] = 'fyn_vlzs';
 
  
  //WARNING: The contents of this file are auto-generated
-$beanList['fyn_Stock_In'] = 'fyn_Stock_In';
-$beanFiles['fyn_Stock_In'] = 'modules/fyn_Stock_In/fyn_Stock_In.php';
-$moduleList[] = 'fyn_Stock_In';
-$beanList['fyn_Stock_out'] = 'fyn_Stock_out';
-$beanFiles['fyn_Stock_out'] = 'modules/fyn_Stock_out/fyn_Stock_out.php';
-$moduleList[] = 'fyn_Stock_out';
+$beanList['prodr_Product_Driver_Stock'] = 'prodr_Product_Driver_Stock';
+$beanFiles['prodr_Product_Driver_Stock'] = 'modules/prodr_Product_Driver_Stock/prodr_Product_Driver_Stock.php';
+$moduleList[] = 'prodr_Product_Driver_Stock';
 
 
  
  //WARNING: The contents of this file are auto-generated
-$beanList['fyn_QR_CODE_BOXES'] = 'fyn_QR_CODE_BOXES';
-$beanFiles['fyn_QR_CODE_BOXES'] = 'modules/fyn_QR_CODE_BOXES/fyn_QR_CODE_BOXES.php';
-$moduleList[] = 'fyn_QR_CODE_BOXES';
-$beanList['fyn_QR_CODE_PALLETTE'] = 'fyn_QR_CODE_PALLETTE';
-$beanFiles['fyn_QR_CODE_PALLETTE'] = 'modules/fyn_QR_CODE_PALLETTE/fyn_QR_CODE_PALLETTE.php';
-$moduleList[] = 'fyn_QR_CODE_PALLETTE';
+$beanList['vs_vehiclestockOUT'] = 'vs_vehiclestockOUT';
+$beanFiles['vs_vehiclestockOUT'] = 'modules/vs_vehiclestockOUT/vs_vehiclestockOUT.php';
+$moduleList[] = 'vs_vehiclestockOUT';
+$beanList['vs_Vehicle_StockIN'] = 'vs_Vehicle_StockIN';
+$beanFiles['vs_Vehicle_StockIN'] = 'modules/vs_Vehicle_StockIN/vs_Vehicle_StockIN.php';
+$moduleList[] = 'vs_Vehicle_StockIN';
 
 
 ?>
